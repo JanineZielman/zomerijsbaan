@@ -1,0 +1,65 @@
+@font-face {
+  font-family: "Umbra-Shadow";
+  src: url("umbra-web.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Umbra";
+  src: url("umbra-simple.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "AfacadFlux";
+  src: url("AfacadFlux-VariableFont_slnt,wght.ttf") format("truetype");
+}
+
+
+body {
+  background-color: rgb(255,255,59);
+  font-family: "AfacadFlux";
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* TEXT */
+
+h1 {
+  font-family: "AfacadFlux";
+  font-size: 14vw;
+  margin: 0;
+  position: absolute;
+  width: 100%;
+  line-height: 1;
+}
+
+.bottom {
+  opacity: 0.5;
+  filter: blur(6px);
+}
+
+.top {
+  color: black;
+}
+
+/* CENTERING */
+
+#center {
+  position: sticky;
+  top: 0;
+  margin-top: 30vh;
+}
+
+/* INFO TEXT */
+
+#info {
+  position: fixed;
+  right: 14px;
+  bottom: 14px;
+  font-size: 1.2em;
+  font-family: arial;
+}
+
+#info h2{
+  margin: 0;
+}
