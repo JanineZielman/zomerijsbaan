@@ -1,21 +1,16 @@
 const textTop = document.getElementById("TOTD");
 const textBottom = document.querySelector(".bottom");
 const displayTime = document.getElementById("displaytime");
-
-/* =========================
-   🖱️ MOUSE INPUT
-========================= */
+const center = document.getElementById("center"); // ✅ NEW
 
 let mouseTargetX = 0;
 let mouseX = 0;
 
+let isLive = false;
+
 window.addEventListener("mousemove", (e) => {
   mouseTargetX = (e.clientX / window.innerWidth) * 2 - 1;
 });
-
-/* =========================
-   🧠 TIME → ANGLE
-========================= */
 
 function getTimeAngleFromDate(date) {
   const seconds =
@@ -29,10 +24,6 @@ function getTimeAngleFromDate(date) {
   return (seconds / daySeconds) * Math.PI * 2;
 }
 
-/* =========================
-   ☀️ SUN POSITION
-========================= */
-
 function getSunPosition(angle) {
   return {
     x: Math.cos(angle) * 100,
@@ -40,17 +31,9 @@ function getSunPosition(angle) {
   };
 }
 
-/* =========================
-   🎯 TOTD VALUE
-========================= */
-
 function getTotd(angle) {
   return (1 + Math.sin(angle)) / 2 * 1000;
 }
-
-/* =========================
-   📉 SCROLL → DISTANCE
-========================= */
 
 function getScrollValue() {
   const scrollTop = window.scrollY;
@@ -65,16 +48,31 @@ function getScrollValue() {
 }
 
 /* =========================
-   🪶 SMOOTH STATE
+   🧠 STICKY PROGRESS
 ========================= */
+
+function getStickyProgress() {
+  const rect = center.getBoundingClientRect(); // ✅ use wrapper
+  const viewportHeight = window.innerHeight;
+
+  const centerTrigger = viewportHeight / 2;
+  const topTrigger = 0;
+
+  let p = (centerTrigger - rect.top) / (centerTrigger - topTrigger);
+
+  // delay start
+  p = (p - 0.2) / 0.8;
+
+  p = Math.max(0, Math.min(1, p));
+
+  // easing
+  p = p * p * (3 - 2 * p);
+
+  return p;
+}
 
 let shadowX = 0;
 let shadowY = 0;
-let currentSlant = 0;
-
-/* =========================
-   🎨 APPLY STATE
-========================= */
 
 function applyState(angle, totdValue, radius) {
   const sun = getSunPosition(angle);
@@ -93,47 +91,39 @@ function applyState(angle, totdValue, radius) {
   const targetX = sun.x * (distance / 120);
   const targetY = sun.y * (distance / 120);
 
-  /* =========================
-     🖱️ SMOOTH MOUSE
-  ========================= */
-
   const lag = 0.08;
 
   mouseX += (mouseTargetX - mouseX) * lag;
 
-  const maxSlant = 12;
-  const targetSlant = mouseX * maxSlant;
-
-  /* =========================
-     🪶 SMOOTH SHADOW
-  ========================= */
-
   shadowX += (targetX - shadowX) * lag;
   shadowY += (targetY - shadowY) * lag;
-  currentSlant += (targetSlant - currentSlant) * lag;
 
   /* =========================
-     🎨 APPLY
+     ✨ SCALE WHOLE WRAPPER
   ========================= */
 
-  const commonTransform = `skewX(${currentSlant * 0.25}deg)`;
+  let scale = 1;
 
-  textTop.style.transform = commonTransform;
+  if (isLive) {
+    const p = getStickyProgress();
 
+    scale = 1 - p * 0.5;
+    scale = Math.max(0.5, Math.min(1, scale));
+  }
+
+  // ✅ apply scale ONLY here
+  center.style.transform = `scale(${scale})`;
+
+  // ✅ keep translate only for shadow layer
   textBottom.style.transform = `
     translate(${shadowX}px, ${shadowY}px)
-    ${commonTransform}
   `;
 
-  const style = `'TOTD' ${totdValue}, 'DIST' ${radius}, 'slnt' ${currentSlant}`;
+  const style = `'TOTD' ${totdValue}, 'DIST' ${radius}, 'slnt' 40`;
 
-  textTop.style.fontVariationSettings = `'TOTD' ${totdValue}, 'DIST' 0, 'slnt' ${currentSlant}`;
+  textTop.style.fontVariationSettings = `'TOTD' ${totdValue}, 'DIST' 0, 'slnt' 40`;
   textBottom.style.fontVariationSettings = style;
 }
-
-/* =========================
-   🧮 TIME DISPLAY
-========================= */
 
 function formatTime(date) {
   const h = date.getHours();
@@ -143,7 +133,7 @@ function formatTime(date) {
 }
 
 /* =========================
-   🎬 LOADER (FULL DAY LOOP)
+   🎬 LOADER
 ========================= */
 
 function runLoader() {
@@ -158,7 +148,6 @@ function runLoader() {
 
     const eased = p * p * (3 - 2 * p);
 
-    // 🔁 full loop: previous day → current time
     const angle =
       targetAngle - Math.PI * 2 + eased * Math.PI * 2;
 
@@ -182,11 +171,9 @@ function runLoader() {
   requestAnimationFrame(animate);
 }
 
-/* =========================
-   🚀 LIVE MODE
-========================= */
-
 function startLive() {
+  isLive = true;
+
   function update() {
     const now = new Date();
 
@@ -204,9 +191,5 @@ function startLive() {
   setInterval(update, 1000);
   window.addEventListener("scroll", update);
 }
-
-/* =========================
-   ▶️ START
-========================= */
 
 runLoader();

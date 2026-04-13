@@ -15,18 +15,26 @@
 
 
 body {
-  background-color: rgb(255,255,59);
+  background-color: rgb(187,203,232);
   font-family: "AfacadFlux";
   text-align: center;
   margin: 0;
   padding: 0;
+  font-size: 24px;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+*{
+  box-sizing: border-box;
 }
 
 /* TEXT */
 
 h1 {
   font-family: "AfacadFlux";
-  font-size: 14vw;
+  font-size: 12vw;
   margin: 0;
   position: absolute;
   width: 100%;
@@ -47,7 +55,8 @@ h1 {
 #center {
   position: sticky;
   top: 0;
-  margin-top: 30vh;
+  margin-top: 34vh;
+  z-index: 999;
 }
 
 /* INFO TEXT */
@@ -56,10 +65,184 @@ h1 {
   position: fixed;
   right: 14px;
   bottom: 14px;
-  font-size: 1.2em;
-  font-family: arial;
+  font-size: 14px;
 }
 
 #info h2{
   margin: 0;
+  font-size: 18px;
+}
+
+video{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.content{
+  padding-top: calc(79vh);
+}
+
+.map{
+  width: 100%;
+  height: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.flex{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 100px 0;
+}
+
+.flex-wrap{
+  width: 45%;
+  padding: 14px;
+}
+
+h2{
+  font-size: 48px; 
+  text-align: left;
+  line-height: 1.1;
+}
+
+p{
+  text-align: left;
+}
+
+.text{
+  padding: 100px 14px 150px 14px;
+  /* background-color: rgb(255,255,59); */
+  position: relative;
+}
+
+.text:before{
+  content: '';
+  position: absolute;
+  background-color: rgb(255,255,59);
+  width: 150%;
+  height: 100%;
+  left: -25%;
+  top: 0;
+  transform: rotate(-3deg);
+  z-index: -1;
+}
+
+.text p{
+  max-width: 900px;
+  margin: auto;
+}
+
+.text h2{
+    text-align: center;
+}
+
+.programma{
+  padding: 100px 14px;
+}
+
+.programma h2{
+  text-align: center;
+  border-bottom: 2px solid black;
+  width: 97%;
+  margin: auto;
+  margin-bottom: 24px;
+  position: sticky;
+  top: 0;
+  z-index: 888;
+  background-color: rgb(187,203,232);
+  padding-top: 110px;
+  line-height: 1.5
+}
+
+.items{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.programma-item{
+  width: 31%;
+  margin-bottom: 48px;
+  padding: 24px;
+  background-color: rgb(255,255,59);
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  transition: all 0.4s ease;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.programma-item:hover{
+  transform: rotate(-3deg);
+}
+
+.programma-item img{
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+
+.programma-item p{
+  margin-top: 0;
+}
+
+h3{
+  margin: 0;
+  text-align: left;
+}
+
+.faq h2{
+  text-align: center;
+}
+
+.button{
+  padding: 5px 20px;
+  border: 1px solid black;
+  transition: all 0.4s ease;
+  cursor: pointer;
+  width: fit-content;
+  text-align: right;
+  margin-right: 0;
+  margin-left: auto;
+}
+
+.button:hover{
+  transform: rotate(3deg);
+}
+
+
+@media screen and (max-width: 600px) {
+  h1{
+    font-size: 15vw;
+  }
+  .flex{
+    flex-direction: column;
+    padding-top: 0;
+  }
+
+  .flex-wrap{
+    width: 100%;
+  }
+
+  .items{
+    flex-direction: column;
+  }
+  .programma-item{
+    width: 100%;
+  }
+  .programma h2{
+    width: calc(100% + 14px + 14px);
+    margin-left: -14px;
+    padding-top: 50px;
+  }
+  h2{
+    font-size: 36px;
+  }
+  body{
+    font-size: 20px;
+  }
 }
