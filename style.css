@@ -13,6 +13,9 @@
   src: url("AfacadFlux-VariableFont_slnt,wght.ttf") format("truetype");
 }
 
+html{
+  background-color: rgb(187,203,232);
+}
 
 body {
   background-color: rgb(187,203,232);
@@ -215,7 +218,7 @@ h3{
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
   h1{
     font-size: 14vw;
   }
@@ -250,4 +253,26 @@ h3{
   body{
     font-size: 20px;
   }
+
+  .text{
+    background-color: rgb(255,255,59);
+  }
+  .text:before{
+    display: none;
+  }
+
+  #center{
+    padding-top: 5px;
+  }
+
+  body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 200vh; /* important: extends beyond viewport */
+  background-color: rgb(187,203,232);
+  z-index: -1;
+}
 }
