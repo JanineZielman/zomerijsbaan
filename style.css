@@ -217,7 +217,12 @@ h3{
 
 @media screen and (max-width: 600px) {
   h1{
-    font-size: 15vw;
+    font-size: 14vw;
+  }
+
+  .bottom{
+    margin-top: -20px;
+    margin-left: 10px;
   }
   .flex{
     flex-direction: column;
@@ -237,10 +242,10 @@ h3{
   .programma h2{
     width: calc(100% + 14px + 14px);
     margin-left: -14px;
-    padding-top: 50px;
+    padding-top: 40px;
   }
   h2{
-    font-size: 36px;
+    font-size: 30px;
   }
   body{
     font-size: 20px;
