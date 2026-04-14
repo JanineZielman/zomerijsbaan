@@ -77,9 +77,11 @@ let shadowY = 0;
 function applyState(angle, totdValue, radius) {
   const sun = getSunPosition(angle);
 
-  const baseDistance = 40;
-  const maxDistance = 100;
-  const scrollStrength = 0.25;
+  const isMobile = window.innerWidth < 768;
+
+  const baseDistance = isMobile ? 15 : 40;
+  const maxDistance = isMobile ? 40 : 100;
+  const scrollStrength = isMobile ? 0.1 : 0.25;
 
   let normalized = radius / 1000;
   normalized = Math.max(0, Math.min(1, normalized));
