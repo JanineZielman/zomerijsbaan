@@ -73,9 +73,11 @@ function getStickyProgress() {
 
 let shadowX = 0;
 let shadowY = 0;
+let hasStartedScrolling = false;
 
 function applyState(angle, totdValue, radius) {
   const sun = getSunPosition(angle);
+  const isScrolled = window.scrollY > 0;
 
   const isMobile = window.innerWidth < 768;
 
@@ -97,8 +99,14 @@ function applyState(angle, totdValue, radius) {
 
   mouseX += (mouseTargetX - mouseX) * lag;
 
-  shadowX += (targetX - shadowX) * lag;
-  shadowY += (targetY - shadowY) * lag;
+  if (hasStartedScrolling) {
+    // Skip the shadow easing once the user starts scrolling.
+    shadowX = targetX;
+    shadowY = targetY;
+  } else {
+    shadowX += (targetX - shadowX) * lag;
+    shadowY += (targetY - shadowY) * lag;
+  }
 
   /* =========================
      ✨ SCALE WHOLE WRAPPER
@@ -106,11 +114,14 @@ function applyState(angle, totdValue, radius) {
 
   let scale = 1;
 
-  if (isLive) {
+  {
     const p = getStickyProgress();
+    const initialScrollKick = isScrolled ? (isMobile ? 0.06 : 0.1) : 0;
+    const scrollScaleStrength = isMobile ? 0.48 : 0.62;
+    const minScale = isMobile ? 0.5 : 0.35;
 
-    scale = 1 - p * 0.5;
-    scale = Math.max(0.5, Math.min(1, scale));
+    scale = 1 - initialScrollKick - p * scrollScaleStrength;
+    scale = Math.max(minScale, Math.min(1, scale));
   }
 
   // ✅ apply scale ONLY here
@@ -121,9 +132,9 @@ function applyState(angle, totdValue, radius) {
     translate(${shadowX}px, ${shadowY}px)
   `;
 
-  const style = `'TOTD' ${totdValue}, 'DIST' ${radius}, 'slnt' 40`;
+  const style = `'TOTD' ${totdValue}, 'DIST' ${radius}, 'slnt' 15`;
 
-  textTop.style.fontVariationSettings = `'TOTD' ${totdValue}, 'DIST' 0, 'slnt' 40`;
+  textTop.style.fontVariationSettings = `'TOTD' ${totdValue}, 'DIST' 0, 'slnt' 15`;
   textBottom.style.fontVariationSettings = style;
 }
 
@@ -177,6 +188,10 @@ function startLive() {
   isLive = true;
 
   function update() {
+    if (!hasStartedScrolling && window.scrollY > 0) {
+      hasStartedScrolling = true;
+    }
+
     const now = new Date();
 
     const angle = getTimeAngleFromDate(now);
