@@ -192,17 +192,6 @@ p{
   align-items: center;
 }
 
-.programma h2 span{
-  margin-left: 50%;
-  transform: translateX(-50%);
-}
-
-.programma h2 a{
-  margin-left: auto;
-  margin-right: 0;
-  display: block;
-  
-}
 
 .items{
   display: flex;
@@ -242,8 +231,16 @@ h3{
   text-align: left;
 }
 
-.faq h2{
+.partners h2{
   text-align: center;
+}
+
+.partners{
+  background-image: url('./Achtergrond.png');
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
+  padding: 50px 14px;
 }
 
 .button{
@@ -264,13 +261,6 @@ h3{
   transform: rotate(3deg);
 }
 
-.multiply{
-  mix-blend-mode: multiply;
-  width: 100%;
-  height: auto;
-  padding: 24px 0;
-}
-
 li{
   text-align: left;
 }
@@ -279,8 +269,6 @@ li{
   width: 100%;
   height: auto;
   max-width: 100%;
-  mix-blend-mode: multiply;
-  filter: grayscale(1) contrast(150%);
 }
 
 
