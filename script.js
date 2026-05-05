@@ -210,3 +210,49 @@ function startLive() {
 }
 
 runLoader();
+
+/* =========================
+   🪟 POPUP
+========================= */
+
+const overlay = document.getElementById("popup-overlay");
+const popupContent = document.getElementById("popup-content");
+const popupClose = document.getElementById("popup-close");
+
+document.querySelectorAll(".programma-item .button").forEach((btn) => {
+  if (btn.tagName === "A") return;
+  btn.addEventListener("click", () => {
+    const item = btn.closest(".programma-item");
+    const img = item.querySelector("img");
+    const caption = item.querySelector(".caption");
+    const h3 = item.querySelector("h3");
+    const ps = item.querySelectorAll(":scope > p");
+    const meerInfo = item.querySelector(".meer-info");
+    const aanmeldBtn = item.querySelector(".buttons a.button");
+
+    let html = "";
+    if (img) html += `<img src="${img.src}" alt="" />`;
+    if (caption && caption.textContent.trim()) html += `<span class="caption">${caption.innerHTML}</span>`;
+    if (h3) html += `<h3>${h3.innerHTML}</h3>`;
+    ps.forEach((p) => { html += p.outerHTML; });
+    if (meerInfo) html += `<div class="meer-info">${meerInfo.innerHTML}</div>`;
+    if (aanmeldBtn) html += `<div class="popup-buttons">${aanmeldBtn.outerHTML}</div>`;
+
+    popupContent.innerHTML = html;
+    overlay.classList.add("open");
+    document.body.style.overflow = "hidden";
+  });
+});
+
+popupClose.addEventListener("click", closePopup);
+overlay.addEventListener("click", (e) => {
+  if (e.target === overlay) closePopup();
+});
+document.addEventListener("keydown", (e) => {
+  if (e.key === "Escape") closePopup();
+});
+
+function closePopup() {
+  overlay.classList.remove("open");
+  document.body.style.overflow = "";
+}
