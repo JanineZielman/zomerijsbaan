@@ -1,382 +1,358 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 27.8.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 8192 4151.8" style="enable-background:new 0 0 8192 4151.8;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#FFFFFF;stroke:#231F20;stroke-width:3.8533;stroke-miterlimit:9.6332;}
-	.st1{fill:none;stroke:#231F20;stroke-width:3.8533;stroke-miterlimit:9.6332;}
-	.st2{fill:#231F20;}
-	.st3{fill:none;}
-	.st4{opacity:0.26;fill:none;stroke:#231F20;stroke-width:3.8533;stroke-miterlimit:9.6332;enable-background:new    ;}
-	.st5{opacity:0.36;fill:none;stroke:#231F20;stroke-width:3.8533;stroke-miterlimit:9.6332;enable-background:new    ;}
-	.st6{fill:none;stroke:#FFFFFF;stroke-width:2.89;stroke-miterlimit:9.6332;}
-	.st7{fill:#231F20;stroke:#FFFFFF;stroke-width:3.8533;stroke-miterlimit:9.6332;}
-	.st8{fill:#FFFFFF;}
-	.st9{font-family:'LucidaConsole';}
-	.st10{font-size:96.3318px;}
-</style>
-<g id="Layer_2_00000018932906957171432470000001161309423479260087_">
-	<path class="st0" d="M4609.6,2234.1c16.3-214.4-145.2-508.7-273.9-658.2"/>
-	<path class="st1" d="M3469.7,957.1c-231.3-96.2-485.7-156.7-749.9-156.7c-744,0-1501.6,321.4-1427.9,833.3
-		c4.1,28.8,6.7,64,19.6,103.4"/>
-	<polygon class="st2" points="3425.9,980.2 3623.4,916.6 4516.8,1513.9 4193.6,1689.2 3264.8,1048.1 	"/>
-	<path class="st2" d="M1963.9,2831.8c280.8,211.7,697.6,411.4,1065.5,415c326.5,3.2,584.3-44.4,812.1-130.9v-237
-		c-234.3,81.5-520.7,130.5-837.4,127.4c-367.9-3.6-771.4-180.5-1052.2-392.2L1963.9,2831.8L1963.9,2831.8z"/>
-	<path class="st2" d="M4358.5,2831.6c143-112.2,246.1-250.3,254.7-445.6c0,0-2.6-276-4.7-229.8c-8.8,200-106.1,315.4-250,436.4"/>
-	<polygon class="st2" points="4516.7,1526 4517.8,1554.5 4218.1,1689.2 	"/>
-	<polygon class="st2" points="4358.5,2592.6 4356.3,2591 4356.3,2590.5 4355.9,2590.7 4310.3,2555.5 3827.7,2809.4 3839.3,3111.6 
-		3878.2,3156.4 3907.3,3141.3 3904.5,3060.8 3996.6,3010.9 3996.6,3094.7 4025.5,3079.7 4022.6,2997.2 4114.7,2951.3 4114.7,3033.2 
-		4137.7,3021.3 4137.7,2938.4 4226.7,2892.3 4226.7,2974.9 4247.9,2963.9 4247.9,2880.8 4340,2833.8 4340,2915.9 4356.3,2907.4 
-		4356.3,2593.8 	"/>
-	<line class="st3" x1="4358.5" y1="2592.6" x2="4358.5" y2="2831.6"/>
-	<polygon class="st2" points="1896.9,2648.9 1914.2,2667.1 2228.7,2518.2 	"/>
-	<path class="st1" d="M4033.6,1813.3l-631.5-507c-116.2-93.3-249.9-162.5-393.5-202.1c-112.6-31.1-229.4-48.6-348.6-48.6
-		c-560.8,0-1086,195.9-1125.5,607.2"/>
-	<path class="st1" d="M4033.6,1813.3c124.2,115.1,221.8,224,221.8,373.4c0,398.3-515.6,721.2-1151.7,721.2
-		c-437.3,0-733.9-139.4-928.9-364.2"/>
-	<path class="st1" d="M2091,2530.4c-88.7-102.2-139-219.3-139-343.8"/>
-	<polygon class="st2" points="2240.6,2505 1568.6,1650.2 1311.5,1737 1261.3,1753.9 1311.5,2009.5 1464.9,2234.1 1464.9,2234.1 
-		1464.9,2151 1550.5,2272 1550.5,2359.4 1891,2857.9 1963.9,2831.8 1952,2614.2 2013.6,2590.9 	"/>
-</g>
-<g id="Layer_8">
-	<line class="st4" x1="6857.9" y1="1837.9" x2="3550.3" y2="3877.9"/>
-	<line class="st4" x1="6818.6" y1="1979.3" x2="3511" y2="4019.3"/>
-	<line class="st4" x1="5996" y1="2369.4" x2="2524.4" y2="267.4"/>
-	<line class="st4" x1="8005.2" y1="3586" x2="6091.9" y2="2427.5"/>
-	<line class="st4" x1="6599.3" y1="1997.4" x2="2896.7" y2="107.6"/>
-	<line class="st5" x1="8427.7" y1="2930.6" x2="6703.3" y2="2050.4"/>
-	<polygon class="st4" points="1729.6,3297.7 1880.7,3247 2331.4,3838.5 2021.5,3862.3 	"/>
-</g>
-<g id="Layer_5">
-	<line class="st6" x1="4107.1" y1="1581.2" x2="4188.5" y2="1635.8"/>
-	<line class="st6" x1="3989.2" y1="1502.1" x2="4082" y2="1564.4"/>
-	<line class="st6" x1="3768.8" y1="1354.4" x2="3971.2" y2="1490.1"/>
-	<line class="st6" x1="3655.5" y1="1278.4" x2="3749.9" y2="1341.7"/>
-	<line class="st6" x1="3324.3" y1="1056.3" x2="3636.2" y2="1265.4"/>
-	<line class="st6" x1="4132" y1="1570.7" x2="4213.1" y2="1625.1"/>
-	<line class="st6" x1="4014.1" y1="1491.6" x2="4107" y2="1554"/>
-	<line class="st6" x1="3794.2" y1="1344.2" x2="3996.3" y2="1479.7"/>
-	<line class="st6" x1="3681.6" y1="1268.7" x2="3773.4" y2="1330.2"/>
-	<line class="st6" x1="3348.9" y1="1045.6" x2="3660.6" y2="1254.6"/>
-	<line class="st6" x1="4156.9" y1="1560.2" x2="4238.3" y2="1614.7"/>
-	<line class="st6" x1="4039.7" y1="1481.6" x2="4132" y2="1543.5"/>
-	<line class="st6" x1="3819.6" y1="1334" x2="4021.3" y2="1469.2"/>
-	<line class="st6" x1="3704.9" y1="1257.1" x2="3798.8" y2="1320.1"/>
-	<line class="st6" x1="3374.6" y1="1035.6" x2="3685.5" y2="1244.1"/>
-	<line class="st6" x1="4181.9" y1="1549.7" x2="4263.2" y2="1604.3"/>
-	<line class="st6" x1="4063.9" y1="1470.6" x2="4156.5" y2="1532.8"/>
-	<line class="st6" x1="3844.5" y1="1323.5" x2="4046.2" y2="1458.7"/>
-	<line class="st6" x1="3730.7" y1="1247.2" x2="3823.4" y2="1309.4"/>
-	<line class="st6" x1="3400.8" y1="1026" x2="3710.4" y2="1233.6"/>
-	<line class="st6" x1="4206.8" y1="1539.2" x2="4288.1" y2="1593.8"/>
-	<line class="st6" x1="4088.8" y1="1460.1" x2="4181.8" y2="1522.5"/>
-	<line class="st6" x1="3868.5" y1="1312.4" x2="4071.1" y2="1448.2"/>
-	<line class="st6" x1="3755.2" y1="1236.5" x2="3848.6" y2="1299.1"/>
-	<line class="st6" x1="3425.7" y1="1015.5" x2="3735.7" y2="1223.4"/>
-	<line class="st6" x1="4231.6" y1="1528.7" x2="4313" y2="1583.3"/>
-	<line class="st6" x1="4113.8" y1="1449.7" x2="4205.8" y2="1511.4"/>
-	<line class="st6" x1="3894.3" y1="1302.5" x2="4096" y2="1437.8"/>
-	<line class="st6" x1="3780.6" y1="1226.2" x2="3873.5" y2="1288.6"/>
-	<line class="st6" x1="3449.8" y1="1004.4" x2="3760.3" y2="1212.6"/>
-	<line class="st6" x1="4281.5" y1="1507.7" x2="4362.9" y2="1562.3"/>
-	<line class="st6" x1="4163.5" y1="1428.7" x2="4256.5" y2="1491"/>
-	<line class="st6" x1="3944.1" y1="1281.5" x2="4145.6" y2="1416.6"/>
-	<line class="st6" x1="3830.4" y1="1205.3" x2="3923.3" y2="1267.6"/>
-	<line class="st6" x1="3500.5" y1="984" x2="3810.1" y2="1191.6"/>
-	<line class="st6" x1="4256.6" y1="1518.2" x2="4337.9" y2="1572.8"/>
-	<line class="st6" x1="4138.6" y1="1439.2" x2="4231.6" y2="1501.5"/>
-	<line class="st6" x1="3919.2" y1="1292" x2="4120.9" y2="1427.3"/>
-	<line class="st6" x1="3805.5" y1="1215.7" x2="3898.4" y2="1278.1"/>
-	<line class="st6" x1="3475.1" y1="994.2" x2="3785.2" y2="1202.1"/>
-	<line class="st6" x1="4306.3" y1="1497.2" x2="4387.7" y2="1551.7"/>
-	<line class="st6" x1="4188.4" y1="1418.2" x2="4281.8" y2="1480.7"/>
-	<line class="st6" x1="3969" y1="1271" x2="4170.3" y2="1406"/>
-	<line class="st6" x1="3855.3" y1="1194.8" x2="3948.2" y2="1257.1"/>
-	<line class="st6" x1="3525" y1="973.3" x2="3834.5" y2="1180.8"/>
-	<line class="st6" x1="4330.6" y1="1486.3" x2="4412.7" y2="1541.3"/>
-	<line class="st6" x1="4213.4" y1="1407.7" x2="4306.3" y2="1470"/>
-	<line class="st6" x1="3993.9" y1="1260.5" x2="4194.9" y2="1395.3"/>
-	<line class="st6" x1="3879.6" y1="1183.9" x2="3973.2" y2="1246.6"/>
-	<line class="st6" x1="3550.3" y1="963" x2="3859" y2="1170"/>
-	<line class="st6" x1="4356.1" y1="1476.2" x2="4437.6" y2="1530.8"/>
-	<line class="st6" x1="4238.3" y1="1397.2" x2="4331.7" y2="1459.8"/>
-	<line class="st6" x1="4018.8" y1="1250" x2="4220.5" y2="1385.3"/>
-	<line class="st6" x1="3905.3" y1="1173.9" x2="3998.1" y2="1236.1"/>
-	<line class="st6" x1="3575.2" y1="952.5" x2="3884.8" y2="1160.2"/>
-	<line class="st6" x1="4381.1" y1="1465.8" x2="4461.8" y2="1519.9"/>
-	<line class="st6" x1="4263.2" y1="1386.7" x2="4356.1" y2="1449"/>
-	<line class="st6" x1="4043.7" y1="1239.5" x2="4245.7" y2="1375"/>
-	<line class="st6" x1="3930" y1="1163.3" x2="4023" y2="1225.6"/>
-	<line class="st6" x1="3600.1" y1="942.1" x2="3909.1" y2="1149.3"/>
-	<line class="st6" x1="1875.4" y1="2476.3" x2="1934.8" y2="2549.6"/>
-	<line class="st6" x1="1789.4" y1="2370.1" x2="1857.1" y2="2453.7"/>
-	<line class="st6" x1="1628.6" y1="2171.7" x2="1776.3" y2="2354"/>
-	<line class="st6" x1="1545.9" y1="2069.7" x2="1614.8" y2="2154.7"/>
-	<line class="st6" x1="1304.2" y1="1771.5" x2="1531.8" y2="2052.3"/>
-	<line class="st6" x1="1900.2" y1="2471.7" x2="1959.3" y2="2544.6"/>
-	<line class="st6" x1="1814.1" y1="2365.5" x2="1881.9" y2="2449.2"/>
-	<line class="st6" x1="1653.7" y1="2167.5" x2="1801.2" y2="2349.5"/>
-	<line class="st6" x1="1571.5" y1="2066.1" x2="1638.5" y2="2148.7"/>
-	<line class="st6" x1="1328.8" y1="1766.6" x2="1556.2" y2="2047.2"/>
-	<line class="st6" x1="1924.9" y1="2467" x2="1984.2" y2="2540.2"/>
-	<line class="st6" x1="1839.3" y1="2361.4" x2="1906.7" y2="2444.5"/>
-	<line class="st6" x1="1678.7" y1="2163.2" x2="1825.9" y2="2344.8"/>
-	<line class="st6" x1="1595.1" y1="2060.1" x2="1663.6" y2="2144.6"/>
-	<line class="st6" x1="1354.1" y1="1762.7" x2="1580.9" y2="2042.6"/>
-	<line class="st6" x1="1949.6" y1="2462.3" x2="2009" y2="2535.6"/>
-	<line class="st6" x1="1863.6" y1="2356.1" x2="1931.2" y2="2439.5"/>
-	<line class="st6" x1="1703.5" y1="2158.6" x2="1850.6" y2="2340.2"/>
-	<line class="st6" x1="1620.5" y1="2056.2" x2="1688.1" y2="2139.6"/>
-	<line class="st6" x1="1379.8" y1="1759.2" x2="1605.7" y2="2037.9"/>
-	<line class="st6" x1="1974.4" y1="2457.7" x2="2033.7" y2="2530.9"/>
-	<line class="st6" x1="1888.3" y1="2351.5" x2="1956.2" y2="2435.2"/>
-	<line class="st6" x1="1727.6" y1="2153.2" x2="1875.4" y2="2335.5"/>
-	<line class="st6" x1="1644.9" y1="2051.1" x2="1713.1" y2="2135.2"/>
-	<line class="st6" x1="1404.5" y1="1754.5" x2="1630.7" y2="2033.6"/>
-	<line class="st6" x1="1999.1" y1="2452.9" x2="2058.5" y2="2526.2"/>
-	<line class="st6" x1="1913.1" y1="2346.9" x2="1980.3" y2="2429.7"/>
-	<line class="st6" x1="1753" y1="2149.3" x2="1900.1" y2="2330.8"/>
-	<line class="st6" x1="1670" y1="2046.9" x2="1737.8" y2="2130.5"/>
-	<line class="st6" x1="1428.6" y1="1749.1" x2="1655.2" y2="2028.6"/>
-	<line class="st6" x1="2048.6" y1="2443.7" x2="2108" y2="2516.9"/>
-	<line class="st6" x1="1962.6" y1="2337.5" x2="2030.4" y2="2421.2"/>
-	<line class="st6" x1="1802.5" y1="2139.9" x2="1949.5" y2="2321.3"/>
-	<line class="st6" x1="1719.5" y1="2037.5" x2="1787.3" y2="2121.2"/>
-	<line class="st6" x1="1478.8" y1="1740.5" x2="1704.7" y2="2019.2"/>
-	<line class="st6" x1="2023.9" y1="2448.3" x2="2083.3" y2="2521.6"/>
-	<line class="st6" x1="1937.8" y1="2342.1" x2="2005.6" y2="2425.8"/>
-	<line class="st6" x1="1777.7" y1="2144.6" x2="1924.9" y2="2326.2"/>
-	<line class="st6" x1="1694.7" y1="2042.2" x2="1762.6" y2="2125.9"/>
-	<line class="st6" x1="1453.7" y1="1744.8" x2="1679.9" y2="2023.9"/>
-	<line class="st6" x1="2073.3" y1="2438.9" x2="2132.7" y2="2512.2"/>
-	<line class="st6" x1="1987.3" y1="2332.8" x2="2055.4" y2="2416.8"/>
-	<line class="st6" x1="1827.2" y1="2135.2" x2="1974" y2="2316.4"/>
-	<line class="st6" x1="1744.2" y1="2032.9" x2="1812" y2="2116.5"/>
-	<line class="st6" x1="1503.2" y1="1735.5" x2="1729.1" y2="2014.1"/>
-	<line class="st6" x1="2097.6" y1="2433.7" x2="2157.5" y2="2507.6"/>
-	<line class="st6" x1="2012" y1="2328.1" x2="2079.9" y2="2411.8"/>
-	<line class="st6" x1="1852" y1="2130.6" x2="1998.6" y2="2311.6"/>
-	<line class="st6" x1="1768.6" y1="2027.7" x2="1836.8" y2="2111.9"/>
-	<line class="st6" x1="1528.2" y1="1731.2" x2="1753.5" y2="2009.1"/>
-	<line class="st6" x1="2122.8" y1="2429.6" x2="2182.2" y2="2502.9"/>
-	<line class="st6" x1="2036.8" y1="2323.5" x2="2105" y2="2407.6"/>
-	<line class="st6" x1="1876.7" y1="2125.9" x2="2023.9" y2="2307.5"/>
-	<line class="st6" x1="1793.9" y1="2023.7" x2="1861.5" y2="2107.2"/>
-	<line class="st6" x1="1553" y1="1726.5" x2="1778.9" y2="2005.2"/>
-	<line class="st6" x1="2147.6" y1="2425" x2="2206.5" y2="2497.7"/>
-	<line class="st6" x1="2061.5" y1="2318.8" x2="2129.4" y2="2402.5"/>
-	<line class="st6" x1="1901.4" y1="2121.2" x2="2048.8" y2="2303.1"/>
-	<line class="st6" x1="1818.4" y1="2018.8" x2="1886.3" y2="2102.5"/>
-	<line class="st6" x1="1577.7" y1="1721.8" x2="1803.2" y2="2000"/>
-	<line class="st6" x1="1355" y1="1763.8" x2="1579.1" y2="1721.6"/>
-	<line class="st6" x1="1330.4" y1="1768.5" x2="1355" y2="1763.8"/>
-	<line class="st6" x1="1305.5" y1="1773.2" x2="1330.4" y2="1768.5"/>
-	<line class="st6" x1="1315" y1="1784.8" x2="1587.1" y2="1733.4"/>
-	<line class="st6" x1="1325" y1="1797.2" x2="1597.2" y2="1745.9"/>
-	<line class="st6" x1="1334.4" y1="1808.8" x2="1606.6" y2="1757.5"/>
-	<line class="st6" x1="1344.5" y1="1821.2" x2="1616.7" y2="1769.9"/>
-	<line class="st6" x1="1354.8" y1="1833.9" x2="1626.8" y2="1782.6"/>
-	<line class="st6" x1="1364" y1="1845.2" x2="1636.1" y2="1793.9"/>
-	<line class="st6" x1="1373.4" y1="1856.9" x2="1645.5" y2="1805.5"/>
-	<line class="st6" x1="1384.7" y1="1870.8" x2="1656.8" y2="1819.5"/>
-	<line class="st6" x1="1394.1" y1="1882.4" x2="1666.3" y2="1831.1"/>
-	<line class="st6" x1="1404.1" y1="1894.8" x2="1676.3" y2="1843.5"/>
-	<line class="st6" x1="1413.6" y1="1906.4" x2="1685.7" y2="1855.1"/>
-	<line class="st6" x1="1423.6" y1="1918.8" x2="1696.2" y2="1867.4"/>
-	<line class="st6" x1="1433.7" y1="1931.6" x2="1706.1" y2="1880.2"/>
-	<line class="st6" x1="1443.1" y1="1942.9" x2="1715.5" y2="1891.5"/>
-	<line class="st6" x1="1452.5" y1="1954.5" x2="1724.7" y2="1903.1"/>
-	<line class="st6" x1="1463.6" y1="1968.2" x2="1735.8" y2="1916.9"/>
-	<line class="st6" x1="1473.3" y1="1979.8" x2="1745.2" y2="1928.5"/>
-	<line class="st6" x1="1482.6" y1="1992.4" x2="1755.3" y2="1940.9"/>
-	<line class="st6" x1="1492.5" y1="2003.9" x2="1764.7" y2="1952.5"/>
-	<line class="st6" x1="1502.6" y1="2016.3" x2="1774.7" y2="1964.9"/>
-	<line class="st6" x1="1512.9" y1="2029" x2="1785" y2="1977.6"/>
-	<line class="st6" x1="1522.1" y1="2040.3" x2="1794.2" y2="1989"/>
-	<line class="st6" x1="1531.5" y1="2051.9" x2="1805" y2="2000.3"/>
-	<line class="st6" x1="1545.8" y1="2070.3" x2="1818.4" y2="2018.8"/>
-	<line class="st6" x1="1555.7" y1="2081.8" x2="1827.9" y2="2030.5"/>
-	<line class="st6" x1="1565.3" y1="2094.3" x2="1837.9" y2="2042.9"/>
-	<line class="st6" x1="1575.2" y1="2105.8" x2="1847.3" y2="2054.5"/>
-	<line class="st6" x1="1584.7" y1="2118.3" x2="1857.4" y2="2066.9"/>
-	<line class="st6" x1="1595.5" y1="2130.9" x2="1867.7" y2="2079.6"/>
-	<line class="st6" x1="1604.2" y1="2142.4" x2="1876.9" y2="2090.9"/>
-	<line class="st6" x1="1861.5" y1="2107.2" x2="1886.3" y2="2102.5"/>
-	<line class="st6" x1="1836.8" y1="2111.9" x2="1861.5" y2="2107.2"/>
-	<line class="st6" x1="1812" y1="2116.5" x2="1836.8" y2="2111.9"/>
-	<line class="st6" x1="1787.3" y1="2121.2" x2="1812" y2="2116.5"/>
-	<line class="st6" x1="1762.6" y1="2125.9" x2="1787.3" y2="2121.2"/>
-	<line class="st6" x1="1737.8" y1="2130.6" x2="1762.6" y2="2125.9"/>
-	<line class="st6" x1="1713.1" y1="2135.2" x2="1737.8" y2="2130.6"/>
-	<line class="st6" x1="1687.8" y1="2140" x2="1713.1" y2="2135.2"/>
-	<line class="st6" x1="1638.8" y1="2149.2" x2="1687.8" y2="2140"/>
-	<line class="st6" x1="1613.9" y1="2153.9" x2="1638.8" y2="2149.2"/>
-	<line class="st6" x1="1876.7" y1="2125.9" x2="1901.4" y2="2121.2"/>
-	<line class="st6" x1="1852" y1="2130.6" x2="1876.7" y2="2125.9"/>
-	<line class="st6" x1="1827.2" y1="2135.2" x2="1852" y2="2130.6"/>
-	<line class="st6" x1="1802.5" y1="2139.9" x2="1827.2" y2="2135.2"/>
-	<line class="st6" x1="1777.7" y1="2144.6" x2="1802.5" y2="2139.9"/>
-	<line class="st6" x1="1753" y1="2149.3" x2="1777.7" y2="2144.6"/>
-	<line class="st6" x1="1629.3" y1="2172.6" x2="1753" y2="2149.3"/>
-	<line class="st6" x1="1638.7" y1="2184.2" x2="1910.8" y2="2132.9"/>
-	<line class="st6" x1="1648.7" y1="2196.6" x2="1920.9" y2="2145.3"/>
-	<line class="st6" x1="1658.1" y1="2208.2" x2="1930.3" y2="2156.9"/>
-	<line class="st6" x1="1668.2" y1="2220.6" x2="1940.4" y2="2169.3"/>
-	<line class="st6" x1="1678.3" y1="2233.4" x2="1950.6" y2="2182"/>
-	<line class="st6" x1="1687.7" y1="2244.7" x2="1959.9" y2="2193.3"/>
-	<line class="st6" x1="1697.1" y1="2256.3" x2="1969.3" y2="2204.9"/>
-	<line class="st6" x1="1708.6" y1="2270.5" x2="1980.8" y2="2219.1"/>
-	<line class="st6" x1="1718" y1="2282.1" x2="1990.2" y2="2230.7"/>
-	<line class="st6" x1="1728.1" y1="2294.5" x2="2000.2" y2="2243.2"/>
-	<line class="st6" x1="1737.5" y1="2306.1" x2="2009.6" y2="2254.8"/>
-	<line class="st6" x1="1747.5" y1="2318.5" x2="2019.7" y2="2267.2"/>
-	<line class="st6" x1="1757.8" y1="2331.2" x2="2030" y2="2279.9"/>
-	<line class="st6" x1="1767" y1="2342.6" x2="2039.2" y2="2291.2"/>
-	<line class="st6" x1="2023.9" y1="2307.5" x2="2049.2" y2="2302.7"/>
-	<line class="st6" x1="1850.6" y1="2340.2" x2="2023.9" y2="2307.5"/>
-	<line class="st6" x1="1825.9" y1="2344.8" x2="1850.6" y2="2340.2"/>
-	<line class="st6" x1="1776" y1="2354.2" x2="1825.9" y2="2344.8"/>
-	<line class="st6" x1="1789.4" y1="2370.1" x2="2061.5" y2="2318.8"/>
-	<line class="st6" x1="1798.8" y1="2381.7" x2="2070.9" y2="2330.4"/>
-	<line class="st6" x1="1808.8" y1="2394.2" x2="2081" y2="2342.8"/>
-	<line class="st6" x1="1818.2" y1="2405.8" x2="2090.4" y2="2354.4"/>
-	<line class="st6" x1="1828.3" y1="2418.2" x2="2100.5" y2="2366.8"/>
-	<line class="st6" x1="1838.1" y1="2430.9" x2="2110.7" y2="2379.5"/>
-	<line class="st6" x1="1847.8" y1="2442.2" x2="2120.6" y2="2390.7"/>
-	<line class="st6" x1="2079.9" y1="2411.8" x2="2129.4" y2="2402.5"/>
-	<line class="st6" x1="2030.4" y1="2421.2" x2="2079.9" y2="2411.8"/>
-	<line class="st6" x1="1856.9" y1="2453.9" x2="2030.4" y2="2421.2"/>
-	<line class="st6" x1="1875.4" y1="2476.3" x2="2147.6" y2="2425"/>
-	<line class="st6" x1="1886.1" y1="2489.5" x2="2158.2" y2="2438.1"/>
-	<line class="st6" x1="1896.5" y1="2502.3" x2="2168.7" y2="2451"/>
-	<line class="st6" x1="1906.5" y1="2514.6" x2="2178.4" y2="2463"/>
-	<line class="st6" x1="1916.8" y1="2526.4" x2="2188.4" y2="2475.2"/>
-	<line class="st6" x1="1926.8" y1="2538.3" x2="2198" y2="2487.2"/>
-	<line class="st6" x1="1934.7" y1="2549.6" x2="2206.8" y2="2498.3"/>
-</g>
-<g id="Layer_6">
-	<line class="st6" x1="3375.9" y1="1036.5" x2="3601.5" y2="941.5"/>
-	<line class="st6" x1="3351.1" y1="1047" x2="3375.9" y2="1036.5"/>
-	<line class="st6" x1="3326.1" y1="1057.5" x2="3351.1" y2="1047"/>
-	<line class="st6" x1="3339" y1="1066.2" x2="3613" y2="950.7"/>
-	<line class="st6" x1="3352.8" y1="1075.4" x2="3626.8" y2="959.9"/>
-	<line class="st6" x1="3365.7" y1="1084.1" x2="3639.7" y2="968.6"/>
-	<line class="st6" x1="3379.5" y1="1093.3" x2="3653.5" y2="977.8"/>
-	<line class="st6" x1="3393.5" y1="1102.7" x2="3667.4" y2="987.3"/>
-	<line class="st6" x1="3406.2" y1="1111.2" x2="3680.2" y2="995.7"/>
-	<line class="st6" x1="3419.1" y1="1119.9" x2="3693.1" y2="1004.4"/>
-	<line class="st6" x1="3434.5" y1="1130.2" x2="3708.5" y2="1014.8"/>
-	<line class="st6" x1="3447.4" y1="1138.9" x2="3721.4" y2="1023.4"/>
-	<line class="st6" x1="3461.2" y1="1148.1" x2="3735.2" y2="1032.7"/>
-	<line class="st6" x1="3474.1" y1="1156.8" x2="3748.1" y2="1041.3"/>
-	<line class="st6" x1="3487.9" y1="1166" x2="3762.3" y2="1050.4"/>
-	<line class="st6" x1="3501.8" y1="1175.5" x2="3776" y2="1060"/>
-	<line class="st6" x1="3514.6" y1="1183.9" x2="3788.8" y2="1068.4"/>
-	<line class="st6" x1="3527.5" y1="1192.6" x2="3801.5" y2="1077.1"/>
-	<line class="st6" x1="3542.8" y1="1202.8" x2="3816.8" y2="1087.3"/>
-	<line class="st6" x1="3555.9" y1="1211.3" x2="3829.6" y2="1096"/>
-	<line class="st6" x1="3568.9" y1="1220.9" x2="3843.4" y2="1105.2"/>
-	<line class="st6" x1="3582.3" y1="1229.3" x2="3856.3" y2="1113.9"/>
-	<line class="st6" x1="3596.1" y1="1238.6" x2="3870.1" y2="1123.1"/>
-	<line class="st6" x1="3610.2" y1="1248" x2="3884.2" y2="1132.6"/>
-	<line class="st6" x1="3622.9" y1="1256.5" x2="3896.8" y2="1141"/>
-	<line class="st6" x1="3635.7" y1="1265.1" x2="3911.1" y2="1149.1"/>
-	<line class="st6" x1="3655.5" y1="1279" x2="3930" y2="1163.3"/>
-	<line class="st6" x1="3668.9" y1="1287.4" x2="3942.9" y2="1171.9"/>
-	<line class="st6" x1="3682.2" y1="1296.8" x2="3956.7" y2="1181.2"/>
-	<line class="st6" x1="3695.6" y1="1305.3" x2="3969.6" y2="1189.8"/>
-	<line class="st6" x1="3708.9" y1="1314.7" x2="3983.4" y2="1199.1"/>
-	<line class="st6" x1="3723.5" y1="1324" x2="3997.5" y2="1208.5"/>
-	<line class="st6" x1="3735.6" y1="1332.6" x2="4010.1" y2="1217"/>
-	<line class="st6" x1="3998.1" y1="1236.1" x2="4023" y2="1225.6"/>
-	<line class="st6" x1="3973.2" y1="1246.6" x2="3998.1" y2="1236.1"/>
-	<line class="st6" x1="3948.2" y1="1257.1" x2="3973.2" y2="1246.6"/>
-	<line class="st6" x1="3923.3" y1="1267.6" x2="3948.2" y2="1257.1"/>
-	<line class="st6" x1="3898.4" y1="1278.1" x2="3923.3" y2="1267.6"/>
-	<line class="st6" x1="3873.5" y1="1288.6" x2="3898.4" y2="1278.1"/>
-	<line class="st6" x1="3848.6" y1="1299.1" x2="3873.5" y2="1288.6"/>
-	<line class="st6" x1="3823.1" y1="1309.8" x2="3848.6" y2="1299.1"/>
-	<line class="st6" x1="3773.9" y1="1330.6" x2="3823.1" y2="1309.8"/>
-	<line class="st6" x1="3748.8" y1="1341.2" x2="3773.9" y2="1330.6"/>
-	<line class="st6" x1="4018.8" y1="1250" x2="4043.7" y2="1239.5"/>
-	<line class="st6" x1="3993.9" y1="1260.5" x2="4018.8" y2="1250"/>
-	<line class="st6" x1="3969" y1="1271" x2="3993.9" y2="1260.5"/>
-	<line class="st6" x1="3944.1" y1="1281.5" x2="3969" y2="1271"/>
-	<line class="st6" x1="3919.2" y1="1292" x2="3944.1" y2="1281.5"/>
-	<line class="st6" x1="3894.3" y1="1302.5" x2="3919.2" y2="1292"/>
-	<line class="st6" x1="3769.8" y1="1355" x2="3894.3" y2="1302.5"/>
-	<line class="st6" x1="3782.7" y1="1363.6" x2="4056.6" y2="1248.2"/>
-	<line class="st6" x1="3796.4" y1="1372.9" x2="4070.4" y2="1257.4"/>
-	<line class="st6" x1="3809.3" y1="1381.5" x2="4083.3" y2="1266.1"/>
-	<line class="st6" x1="3823.1" y1="1390.8" x2="4097.1" y2="1275.3"/>
-	<line class="st6" x1="3837" y1="1400.3" x2="4111.2" y2="1284.8"/>
-	<line class="st6" x1="3849.8" y1="1408.7" x2="4123.8" y2="1293.2"/>
-	<line class="st6" x1="3862.7" y1="1417.3" x2="4136.7" y2="1301.9"/>
-	<line class="st6" x1="3878.5" y1="1427.9" x2="4152.5" y2="1312.4"/>
-	<line class="st6" x1="3891.4" y1="1436.6" x2="4165.4" y2="1321.1"/>
-	<line class="st6" x1="3905.2" y1="1445.8" x2="4179.2" y2="1330.3"/>
-	<line class="st6" x1="3918.1" y1="1454.5" x2="4192.1" y2="1339"/>
-	<line class="st6" x1="3931.9" y1="1463.7" x2="4205.8" y2="1348.2"/>
-	<line class="st6" x1="3945.9" y1="1473.1" x2="4219.9" y2="1357.7"/>
-	<line class="st6" x1="3958.5" y1="1481.6" x2="4232.5" y2="1366.1"/>
-	<line class="st6" x1="4220.5" y1="1385.3" x2="4246" y2="1374.5"/>
-	<line class="st6" x1="4046.2" y1="1458.7" x2="4220.5" y2="1385.3"/>
-	<line class="st6" x1="4021.3" y1="1469.2" x2="4046.2" y2="1458.7"/>
-	<line class="st6" x1="3971" y1="1490.4" x2="4021.3" y2="1469.2"/>
-	<line class="st6" x1="3989.2" y1="1502.1" x2="4263.2" y2="1386.7"/>
-	<line class="st6" x1="4002.1" y1="1510.8" x2="4276.1" y2="1395.3"/>
-	<line class="st6" x1="4015.9" y1="1520" x2="4289.9" y2="1404.6"/>
-	<line class="st6" x1="4028.8" y1="1528.7" x2="4302.7" y2="1413.2"/>
-	<line class="st6" x1="4042.6" y1="1537.9" x2="4316.5" y2="1422.5"/>
-	<line class="st6" x1="4056.2" y1="1547.5" x2="4330.6" y2="1431.9"/>
-	<line class="st6" x1="4069.2" y1="1555.8" x2="4343.9" y2="1440.1"/>
-	<line class="st6" x1="4306.3" y1="1470" x2="4356.1" y2="1449"/>
-	<line class="st6" x1="4256.5" y1="1491" x2="4306.3" y2="1470"/>
-	<line class="st6" x1="4081.8" y1="1564.6" x2="4256.5" y2="1491"/>
-	<line class="st6" x1="4107.1" y1="1581.2" x2="4381.1" y2="1465.8"/>
-	<line class="st6" x1="4121.7" y1="1591" x2="4395.7" y2="1475.5"/>
-	<line class="st6" x1="4136" y1="1600.6" x2="4410" y2="1485.1"/>
-	<line class="st6" x1="4149.7" y1="1609.7" x2="4423.4" y2="1494.1"/>
-	<line class="st6" x1="4163.5" y1="1618.3" x2="4437" y2="1503.1"/>
-	<line class="st6" x1="4177.2" y1="1627.1" x2="4450.2" y2="1512.1"/>
-	<line class="st6" x1="4188.4" y1="1635.8" x2="4462.3" y2="1520.4"/>
-</g>
-<g id="Layer_4">
-	<line class="st1" x1="5368.4" y1="1404.6" x2="5165" y2="2430.9"/>
-	<rect x="2951.5" y="3525" class="st7" width="1708" height="241.3"/>
-	<text transform="matrix(1 0 0 1 3017.0645 3673.0002)" class="st8 st9 st10">Olympisch Stadion Amsterdam</text>
-	<rect x="4683.6" y="793.2" class="st0" width="1017.3" height="241.3"/>
-	<text transform="matrix(1 0 0 1 4749.1582 941.2328)" class="st2 st9 st10">Batterij opslag</text>
-	<rect x="4229.7" y="2490.7" class="st0" width="292.9" height="241.3"/>
-	<text transform="matrix(1 0 0 1 4284.0586 2638.7727)" class="st2 st9 st10">EMS</text>
-	<rect x="5090.7" y="3525" class="st7" width="872.7" height="241.3"/>
-	<text transform="matrix(1 0 0 1 5156.3145 3673.0002)" class="st8 st9 st10">Cruyff Court</text>
-	<rect x="824.6" y="3525" class="st7" width="872.7" height="241.3"/>
-	<text transform="matrix(1 0 0 1 942.1826 3673.0002)" class="st8 st9 st10">Hoofdingang</text>
-	<rect x="1832.4" y="3525" class="st7" width="872.7" height="241.3"/>
-	<text transform="matrix(1 0 0 1 1897.9873 3673.0002)" class="st8 st9 st10">Parkeergarage</text>
-	<rect x="6547.2" y="2113.5" class="st0" width="593.6" height="241.3"/>
-	<text transform="matrix(1 0 0 1 6624.1318 2261.5374)" class="st2 st9 st10">IJsbaan</text>
-	<polygon class="st2" points="4826.1,2335.6 4762.3,2377.2 4762.3,2443 4808.9,2443 4872.8,2401.4 4872.8,2335.6 	"/>
-	<polygon class="st2" points="4730.7,2335.6 4666.8,2377.2 4666.8,2443 4713.5,2443 4777.4,2401.4 4777.4,2335.6 	"/>
-	<polygon class="st2" points="5164.8,2329 5317,2449.6 5662.3,2242.4 5502.9,2139.3 	"/>
-	<rect x="2677" y="221" class="st0" width="853.3" height="241.3"/>
-	<text transform="matrix(1 0 0 1 2754.0205 369.0599)" class="st2 st9 st10">zonnepanelen</text>
-	<line class="st1" x1="3324.3" y1="462.3" x2="3662.7" y2="1134.8"/>
-	<line class="st1" x1="5019.1" y1="1036" x2="4843" y2="2354.8"/>
-	<line class="st1" x1="6547.2" y1="2234.1" x2="5551.2" y2="2271"/>
-	<line class="st1" x1="5442.9" y1="2373.4" x2="5442.9" y2="3525"/>
-	<line class="st1" x1="1898" y1="3379.7" x2="1898" y2="3586"/>
-	<line class="st1" x1="1534.4" y1="2203.6" x2="1534.4" y2="3557.9"/>
-	<line class="st1" x1="3354.1" y1="3098.9" x2="3354.1" y2="3554.3"/>
-	<line class="st1" x1="2896.7" y1="462.3" x2="1836" y2="2113.5"/>
-	<polygon class="st2" points="5208.6,2389.3 5183.9,2405.4 5183.9,2430.9 5202,2430.9 5226.7,2414.8 5226.7,2389.3 	"/>
-	<polygon class="st2" points="5171.7,2389.3 5146.9,2405.4 5146.9,2430.9 5165,2430.9 5189.7,2414.8 5189.7,2389.3 	"/>
-	<rect x="5093.7" y="1167.7" class="st0" width="863.4" height="241.3"/>
-	<text transform="matrix(1 0 0 1 5202.1973 1319.9418)" class="st2 st9 st10">Koelsysteem</text>
-</g>
-<g id="Layer_7">
-	<path class="st1" d="M4549.6,2439.5c12.9-21.8,33.6-48.5,63.6-53.5c36.7-6.2,51.2,26.2,95.7,34.2c21.3,3.8,41.1,44.5,163.9-18.8
-		c95.1-49,171.3-5,222.2,18.8c42.2,19.7,97.6-9.5,137.9-37.2"/>
-</g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 7536.86 4149.05">
+  <g id="Layer_2" data-name="Layer 2">
+    <path d="m4089.21,2207.53c16.9-222.59-150.78-528.06-284.32-683.27" style="fill: none; stroke: #231f20; stroke-miterlimit: 10; stroke-width: 4px;"/>
+    <path d="m2905.97,881.8c-240.11-99.85-504.18-162.69-778.43-162.69-772.29,0-1558.78,333.69-1482.31,865,4.3,29.9,6.94,66.43,20.32,107.34" style="fill: none; stroke: #231f20; stroke-miterlimit: 10; stroke-width: 4px;"/>
+    <polygon points="2860.45 905.85 3065.49 839.84 3992.93 1459.91 3657.38 1641.8 2693.22 976.3 2860.45 905.85" style="fill: #231f20; stroke-width: 0px;"/>
+    <path d="m1342.81,2827.98c291.46,219.77,724.14,427.08,1106.09,430.85,338.98,3.34,606.53-46.14,843.03-135.88v-246.05c-243.25,84.65-540.52,135.52-869.25,132.28-381.95-3.77-800.79-187.38-1092.25-407.15l12.38,225.96Z" style="fill: #231f20; stroke-width: 0px;"/>
+    <path d="m3828.6,2827.75c148.43-116.5,255.46-259.82,264.36-462.6,0,0-2.72-286.55-4.84-238.51-9.12,207.59-110.17,327.39-259.53,453.05" style="fill: #231f20; stroke-width: 0px;"/>
+    <polygon points="3992.83 1472.38 3993.94 1501.97 3682.89 1641.8 3992.83 1472.38" style="fill: #231f20; stroke-width: 0px;"/>
+    <polygon points="3828.59 2579.69 3826.33 2577.94 3826.33 2577.42 3825.92 2577.63 3778.59 2541.14 3277.61 2804.71 3289.66 3118.41 3329.99 3164.94 3360.24 3149.19 3357.26 3065.65 3452.94 3013.87 3452.94 3100.9 3482.91 3085.3 3479.85 2999.62 3575.54 2951.96 3575.54 3037.05 3599.35 3024.65 3599.35 2938.61 3691.82 2890.72 3691.82 2976.49 3713.83 2965.03 3713.75 2878.85 3809.43 2830.06 3809.43 2915.24 3826.33 2906.43 3826.33 2580.84 3828.59 2579.69" style="fill: #231f20; stroke-width: 0px;"/>
+    <line x1="3828.59" y1="2579.69" x2="3828.6" y2="2827.75" style="fill: #231f20; stroke-width: 0px;"/>
+    <polygon points="1273.29 2638.13 1291.2 2657.01 1617.68 2502.37 1273.29 2638.13" style="fill: #231f20; stroke-width: 0px;"/>
+    <path d="m3491.29,1770.66l-655.56-526.31c-120.59-96.82-259.42-168.69-408.49-209.83-116.88-32.26-238.13-50.44-361.89-50.44-582.19,0-1127.36,203.41-1168.37,630.3" style="fill: none; stroke: #231f20; stroke-miterlimit: 10; stroke-width: 4px;"/>
+    <path d="m3491.29,1770.66c128.91,119.49,230.26,232.54,230.26,387.6,0,413.48-535.27,748.67-1195.56,748.67-453.95,0-761.83-144.66-964.28-378.04" style="fill: none; stroke: #231f20; stroke-miterlimit: 10; stroke-width: 4px;"/>
+    <path d="m1474.73,2515.12c-92.03-106.08-144.3-227.65-144.3-356.86" style="fill: none; stroke: #231f20; stroke-miterlimit: 10; stroke-width: 4px;"/>
+    <polygon points="1630.03 2488.66 932.47 1601.32 665.56 1691.45 613.5 1709.03 665.56 1974.36 824.84 2207.53 824.84 2207.53 824.84 2121.21 913.65 2246.86 913.65 2337.54 1267.14 2855.03 1342.81 2827.98 1330.43 2602.02 1394.37 2577.83 1630.03 2488.66" style="fill: #231f20; stroke-width: 0px;"/>
+  </g>
+  <g id="Layer_8" data-name="Layer 8">
+    <line x1="6423.2" y1="1796.18" x2="2989.59" y2="3913.87" style="fill: none; opacity: .26; stroke: #231f20; stroke-miterlimit: 10; stroke-width: 4px;"/>
+    <line x1="6382.41" y1="1942.97" x2="2948.81" y2="4060.67" style="fill: none; opacity: .26; stroke: #231f20; stroke-miterlimit: 10; stroke-width: 4px;"/>
+    <line x1="5528.5" y1="2347.99" x2="1924.68" y2="165.94" style="fill: none; opacity: .26; stroke: #231f20; stroke-miterlimit: 10; stroke-width: 4px;"/>
+    <line x1="7614.19" y1="3610.83" x2="5628.02" y2="2408.25" style="fill: none; opacity: .26; stroke: #231f20; stroke-miterlimit: 10; stroke-width: 4px;"/>
+    <line x1="6154.74" y1="1961.75" x2="2311.18" style="fill: none; opacity: .26; stroke: #231f20; stroke-miterlimit: 10; stroke-width: 4px;"/>
+    <line x1="8052.76" y1="2930.5" x2="6262.65" y2="2016.83" style="fill: none; opacity: .36; stroke: #231f20; stroke-miterlimit: 10; stroke-width: 4px;"/>
+    <polygon points="1099.61 3311.55 1256.47 3258.98 1724.3 3872.94 1402.58 3897.71 1099.61 3311.55" style="fill: none; opacity: .26; stroke: #231f20; stroke-miterlimit: 10; stroke-width: 4px;"/>
+  </g>
+  <g id="Layer_5" data-name="Layer 5">
+    <line x1="3567.65" y1="1529.75" x2="3652.09" y2="1586.37" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3445.2" y1="1447.64" x2="3541.55" y2="1512.24" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3216.43" y1="1294.24" x2="3426.57" y2="1435.15" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3098.77" y1="1215.35" x2="3196.85" y2="1281.11" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="2754.99" y1="984.83" x2="3078.77" y2="1201.94" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3593.5" y1="1518.85" x2="3677.66" y2="1575.28" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3471.06" y1="1436.75" x2="3567.56" y2="1501.46" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3242.79" y1="1283.68" x2="3452.65" y2="1424.4" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3125.88" y1="1205.29" x2="3221.17" y2="1269.18" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="2780.55" y1="973.73" x2="3104.1" y2="1190.68" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3619.36" y1="1507.95" x2="3703.77" y2="1564.55" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3497.62" y1="1426.32" x2="3593.42" y2="1490.56" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3269.14" y1="1273.12" x2="3478.51" y2="1413.51" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3150.15" y1="1193.33" x2="3247.58" y2="1258.66" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="2807.24" y1="963.39" x2="3130.01" y2="1179.82" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3645.22" y1="1497.06" x2="3729.67" y2="1553.68" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3522.77" y1="1414.95" x2="3618.95" y2="1479.44" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3295" y1="1262.22" x2="3504.37" y2="1402.61" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3176.93" y1="1183.05" x2="3273.14" y2="1247.56" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="2834.45" y1="953.41" x2="3155.86" y2="1168.93" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3671.07" y1="1486.16" x2="3755.51" y2="1542.78" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3548.63" y1="1404.06" x2="3645.17" y2="1468.79" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3319.97" y1="1250.73" x2="3530.22" y2="1391.71" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3202.35" y1="1171.86" x2="3299.29" y2="1236.87" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="2860.31" y1="942.51" x2="3182.09" y2="1158.28" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3696.83" y1="1475.2" x2="3781.4" y2="1531.9" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3574.59" y1="1393.23" x2="3670.13" y2="1457.29" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3346.71" y1="1240.43" x2="3556.08" y2="1380.82" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3228.65" y1="1161.26" x2="3325.12" y2="1225.95" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="2885.27" y1="931.01" x2="3207.58" y2="1147.13" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3748.64" y1="1453.47" x2="3833.13" y2="1510.12" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3626.2" y1="1371.37" x2="3722.7" y2="1436.08" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3398.43" y1="1218.64" x2="3607.6" y2="1358.89" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3280.36" y1="1139.47" x2="3376.86" y2="1204.18" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="2937.88" y1="909.82" x2="3259.29" y2="1125.34" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3722.79" y1="1464.37" x2="3807.25" y2="1521.01" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3600.34" y1="1382.26" x2="3696.83" y2="1446.96" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3372.57" y1="1229.53" x2="3581.94" y2="1369.92" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3254.5" y1="1150.36" x2="3351" y2="1215.07" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="2911.57" y1="920.41" x2="3233.43" y2="1136.24" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3774.42" y1="1442.52" x2="3858.88" y2="1499.15" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3652.06" y1="1360.47" x2="3748.93" y2="1425.43" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3424.28" y1="1207.74" x2="3633.18" y2="1347.82" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3306.22" y1="1128.57" x2="3402.72" y2="1193.28" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="2963.33" y1="898.65" x2="3284.65" y2="1114.11" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3799.65" y1="1431.2" x2="3884.84" y2="1488.33" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3677.91" y1="1349.58" x2="3774.42" y2="1414.28" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3450.14" y1="1196.84" x2="3658.8" y2="1336.76" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3331.5" y1="1117.29" x2="3428.58" y2="1182.38" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="2989.59" y1="888.03" x2="3310.07" y2="1102.92" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3826.13" y1="1420.73" x2="3910.7" y2="1477.43" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3703.77" y1="1338.68" x2="3800.77" y2="1403.72" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3476" y1="1185.95" x2="3685.36" y2="1326.34" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3358.14" y1="1106.92" x2="3454.43" y2="1171.49" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3015.45" y1="877.13" x2="3336.86" y2="1092.65" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3852.07" y1="1409.89" x2="3935.87" y2="1466.07" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3729.63" y1="1327.78" x2="3826.13" y2="1392.49" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3501.85" y1="1175.05" x2="3711.53" y2="1315.65" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3383.79" y1="1095.88" x2="3480.29" y2="1160.59" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3041.31" y1="866.24" x2="3362.08" y2="1081.33" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="1250.97" y1="2458.94" x2="1312.59" y2="2534.97" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="1161.63" y1="2348.7" x2="1231.92" y2="2435.44" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="994.71" y1="2142.74" x2="1148.03" y2="2331.93" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="908.85" y1="2036.81" x2="980.41" y2="2125.1" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="658.01" y1="1727.3" x2="894.26" y2="2018.8" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="1276.65" y1="2454.09" x2="1338.06" y2="2529.86" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="1187.31" y1="2343.86" x2="1257.73" y2="2430.74" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="1020.75" y1="2138.34" x2="1173.88" y2="2327.28" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="935.45" y1="2033.09" x2="1004.98" y2="2118.87" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="683.48" y1="1722.19" x2="919.56" y2="2013.48" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="1302.34" y1="2449.25" x2="1363.93" y2="2525.24" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="1213.51" y1="2339.65" x2="1283.41" y2="2425.89" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="1046.8" y1="2133.94" x2="1199.57" y2="2322.44" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="959.98" y1="2026.82" x2="1031.07" y2="2114.53" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="709.77" y1="1718.09" x2="945.28" y2="2008.68" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="1328.02" y1="2444.4" x2="1389.64" y2="2520.43" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="1238.68" y1="2334.17" x2="1308.85" y2="2420.75" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="1072.48" y1="2129.1" x2="1225.25" y2="2317.59" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="986.34" y1="2022.8" x2="1056.54" y2="2109.42" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="736.45" y1="1714.47" x2="970.96" y2="2003.83" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="1353.71" y1="2439.56" x2="1415.32" y2="2515.58" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="1264.37" y1="2329.32" x2="1334.81" y2="2416.24" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="1097.52" y1="2123.46" x2="1250.94" y2="2312.75" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="1011.7" y1="2017.56" x2="1082.44" y2="2104.84" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="762.13" y1="1709.62" x2="996.92" y2="1999.32" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="1379.32" y1="2434.62" x2="1441.02" y2="2510.76" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="1290.12" y1="2324.56" x2="1359.84" y2="2410.58" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="1123.85" y1="2119.41" x2="1276.62" y2="2307.9" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="1037.71" y1="2013.11" x2="1108.1" y2="2099.97" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="787.16" y1="1703.97" x2="1022.33" y2="1994.14" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="1430.76" y1="2425.02" x2="1492.41" y2="2501.08" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="1341.42" y1="2314.78" x2="1411.83" y2="2401.67" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="1175.22" y1="2109.72" x2="1327.85" y2="2298.04" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="1089.08" y1="2003.42" x2="1159.49" y2="2090.3" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="839.19" y1="1695.09" x2="1073.7" y2="1984.45" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="1405.08" y1="2429.87" x2="1466.71" y2="2505.91" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="1315.74" y1="2319.63" x2="1386.14" y2="2406.5" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="1149.54" y1="2114.56" x2="1302.31" y2="2303.06" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="1063.39" y1="2008.27" x2="1133.81" y2="2095.15" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="813.17" y1="1699.52" x2="1048.02" y2="1989.3" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="1456.39" y1="2420.1" x2="1518.01" y2="2496.14" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="1367.11" y1="2309.94" x2="1437.79" y2="2397.15" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="1200.91" y1="2104.87" x2="1353.33" y2="2292.95" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="1114.76" y1="1998.58" x2="1185.17" y2="2085.46" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="864.57" y1="1689.87" x2="1099.03" y2="1979.16" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="1481.61" y1="2414.69" x2="1543.78" y2="2491.39" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="1392.79" y1="2305.09" x2="1463.2" y2="2391.98" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="1226.59" y1="2100.03" x2="1378.84" y2="2287.89" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="1140.03" y1="1993.21" x2="1210.86" y2="2080.61" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="890.56" y1="1685.4" x2="1124.39" y2="1973.92" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="1507.76" y1="2410.41" x2="1569.46" y2="2486.55" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="1418.48" y1="2300.25" x2="1489.25" y2="2387.58" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="1252.28" y1="2095.18" x2="1405.04" y2="2283.68" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="1166.28" y1="1989.08" x2="1236.54" y2="2075.77" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="916.24" y1="1680.55" x2="1150.76" y2="1969.92" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="1533.5" y1="2405.64" x2="1594.64" y2="2481.08" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="1444.16" y1="2295.4" x2="1514.57" y2="2382.29" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="1277.96" y1="2090.34" x2="1430.95" y2="2279.11" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="1191.82" y1="1984.04" x2="1262.23" y2="2070.92" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="941.92" y1="1675.71" x2="1175.98" y2="1964.5" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="710.76" y1="1719.31" x2="943.37" y2="1675.43" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="685.15" y1="1724.14" x2="710.76" y2="1719.31" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="659.39" y1="1729" x2="685.15" y2="1724.14" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="669.16" y1="1741.05" x2="951.69" y2="1687.76" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="679.61" y1="1753.95" x2="962.14" y2="1700.65" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="689.37" y1="1766" x2="971.91" y2="1712.7" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="699.82" y1="1778.89" x2="982.36" y2="1725.59" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="710.48" y1="1792.04" x2="992.87" y2="1738.77" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="720.04" y1="1803.83" x2="1002.57" y2="1750.53" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="729.8" y1="1815.88" x2="1012.34" y2="1762.59" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="741.53" y1="1830.35" x2="1024.06" y2="1777.05" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="751.29" y1="1842.4" x2="1033.83" y2="1789.1" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="761.74" y1="1855.29" x2="1044.27" y2="1801.99" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="771.51" y1="1867.34" x2="1054.04" y2="1814.04" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="781.96" y1="1880.23" x2="1064.91" y2="1826.86" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="792.41" y1="1893.42" x2="1075.15" y2="1840.09" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="802.17" y1="1905.18" x2="1084.91" y2="1851.84" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="811.94" y1="1917.23" x2="1094.47" y2="1863.93" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="823.5" y1="1931.49" x2="1106.03" y2="1878.19" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="833.48" y1="1943.5" x2="1115.8" y2="1890.24" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="843.15" y1="1956.54" x2="1126.24" y2="1903.13" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="853.48" y1="1968.48" x2="1136.01" y2="1915.19" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="863.93" y1="1981.37" x2="1146.46" y2="1928.08" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="874.59" y1="1994.53" x2="1157.12" y2="1941.23" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="884.19" y1="2006.31" x2="1166.68" y2="1953.02" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="893.91" y1="2018.37" x2="1177.84" y2="1964.81" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="908.75" y1="2037.44" x2="1191.82" y2="1984.04" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="919.05" y1="2049.39" x2="1201.58" y2="1996.09" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="929.02" y1="2062.37" x2="1212.03" y2="2008.98" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="939.27" y1="2074.33" x2="1221.8" y2="2021.04" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="949.21" y1="2087.32" x2="1232.25" y2="2033.93" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="960.37" y1="2100.38" x2="1242.9" y2="2047.08" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="969.41" y1="2112.27" x2="1252.46" y2="2058.87" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="1236.54" y1="2075.77" x2="1262.23" y2="2070.92" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="1210.86" y1="2080.61" x2="1236.54" y2="2075.77" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="1185.17" y1="2085.46" x2="1210.86" y2="2080.61" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="1159.49" y1="2090.3" x2="1185.17" y2="2085.46" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="1133.81" y1="2095.15" x2="1159.49" y2="2090.3" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="1108.06" y1="2100" x2="1133.81" y2="2095.15" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="1082.44" y1="2104.84" x2="1108.06" y2="2100" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="1056.16" y1="2109.8" x2="1082.44" y2="2104.84" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="1005.38" y1="2119.37" x2="1056.16" y2="2109.8" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="979.46" y1="2124.26" x2="1005.38" y2="2119.37" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="1252.28" y1="2095.18" x2="1277.96" y2="2090.34" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="1226.59" y1="2100.03" x2="1252.28" y2="2095.18" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="1200.91" y1="2104.87" x2="1226.59" y2="2100.03" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="1175.22" y1="2109.72" x2="1200.91" y2="2104.87" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="1149.54" y1="2114.56" x2="1175.22" y2="2109.72" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="1123.85" y1="2119.41" x2="1149.54" y2="2114.56" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="995.43" y1="2143.63" x2="1123.85" y2="2119.41" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="1005.2" y1="2155.69" x2="1287.73" y2="2102.39" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="1015.65" y1="2168.58" x2="1298.18" y2="2115.28" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="1025.41" y1="2180.63" x2="1307.95" y2="2127.33" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="1035.86" y1="2193.52" x2="1318.39" y2="2140.22" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="1046.33" y1="2206.71" x2="1329.05" y2="2153.37" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="1056.08" y1="2218.46" x2="1338.61" y2="2165.17" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="1065.84" y1="2230.52" x2="1348.38" y2="2177.22" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="1077.78" y1="2245.25" x2="1360.32" y2="2191.95" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="1087.55" y1="2257.3" x2="1370.08" y2="2204" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="1098.03" y1="2270.18" x2="1380.53" y2="2216.89" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="1107.77" y1="2282.24" x2="1390.3" y2="2228.95" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="1118.21" y1="2295.13" x2="1400.75" y2="2241.84" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="1128.87" y1="2308.28" x2="1411.41" y2="2254.99" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="1138.43" y1="2320.08" x2="1420.96" y2="2266.78" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="1405.04" y1="2283.68" x2="1431.35" y2="2278.71" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="1225.25" y1="2317.59" x2="1405.04" y2="2283.68" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="1199.57" y1="2322.44" x2="1225.25" y2="2317.59" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="1147.75" y1="2332.21" x2="1199.57" y2="2322.44" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="1161.63" y1="2348.7" x2="1444.16" y2="2295.4" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="1171.4" y1="2360.75" x2="1453.93" y2="2307.46" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="1181.84" y1="2373.64" x2="1464.38" y2="2320.35" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="1191.61" y1="2385.7" x2="1474.14" y2="2332.4" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="1202.06" y1="2398.59" x2="1484.59" y2="2345.29" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="1212.25" y1="2411.83" x2="1495.25" y2="2358.44" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="1222.27" y1="2423.53" x2="1505.51" y2="2370.1" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="1463.2" y1="2391.98" x2="1514.57" y2="2382.29" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="1411.83" y1="2401.67" x2="1463.2" y2="2391.98" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="1231.72" y1="2435.64" x2="1411.83" y2="2401.67" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="1250.97" y1="2458.94" x2="1533.5" y2="2405.64" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="1262.03" y1="2472.58" x2="1544.56" y2="2419.29" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="1272.86" y1="2485.95" x2="1555.4" y2="2432.65" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="1283.18" y1="2498.69" x2="1565.49" y2="2445.11" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="1293.87" y1="2510.93" x2="1575.87" y2="2457.74" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="1304.32" y1="2523.27" x2="1585.8" y2="2470.18" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="1312.54" y1="2535.01" x2="1594.95" y2="2481.74" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+  </g>
+  <g id="Layer_6" data-name="Layer 6">
+    <line x1="2808.6" y1="964.3" x2="3042.76" y2="865.62" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="2782.82" y1="975.17" x2="2808.6" y2="964.3" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="2756.88" y1="986.1" x2="2782.82" y2="975.17" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="2770.27" y1="995.07" x2="3054.69" y2="875.21" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="2784.59" y1="1004.67" x2="3069.01" y2="884.81" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="2797.97" y1="1013.65" x2="3082.4" y2="893.79" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="2812.29" y1="1023.25" x2="3096.72" y2="903.39" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="2826.9" y1="1033.05" x2="3111.18" y2="913.25" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="2840" y1="1041.83" x2="3124.42" y2="921.97" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="2853.38" y1="1050.8" x2="3137.81" y2="930.94" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="2869.45" y1="1061.58" x2="3153.87" y2="941.72" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="2882.83" y1="1070.55" x2="3167.26" y2="950.69" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="2897.15" y1="1080.15" x2="3181.58" y2="960.29" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="2910.54" y1="1089.13" x2="3194.97" y2="969.27" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="2924.86" y1="1098.73" x2="3209.71" y2="978.69" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="2939.26" y1="1108.61" x2="3223.89" y2="988.67" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="2952.56" y1="1117.31" x2="3237.2" y2="997.36" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="2965.95" y1="1126.29" x2="3250.38" y2="1006.42" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="2981.79" y1="1136.91" x2="3266.21" y2="1017.05" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="2995.4" y1="1145.79" x2="3279.6" y2="1026.02" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3008.93" y1="1155.72" x2="3293.92" y2="1035.62" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3022.88" y1="1164.46" x2="3307.31" y2="1044.6" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3037.2" y1="1174.06" x2="3321.63" y2="1054.2" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3051.81" y1="1183.86" x2="3336.23" y2="1063.99" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3064.95" y1="1192.62" x2="3349.33" y2="1072.78" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3078.29" y1="1201.61" x2="3364.12" y2="1081.16" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3098.82" y1="1215.97" x2="3383.79" y2="1095.88" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3112.75" y1="1224.72" x2="3397.17" y2="1104.86" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3126.58" y1="1234.52" x2="3411.49" y2="1114.46" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3140.45" y1="1243.3" x2="3424.88" y2="1123.44" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3154.27" y1="1253.11" x2="3439.2" y2="1133.04" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3169.38" y1="1262.69" x2="3453.8" y2="1142.83" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3181.96" y1="1271.69" x2="3466.9" y2="1151.61" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3454.43" y1="1171.49" x2="3480.29" y2="1160.59" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3428.58" y1="1182.38" x2="3454.43" y2="1171.49" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3402.72" y1="1193.28" x2="3428.58" y2="1182.38" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3376.86" y1="1204.18" x2="3402.72" y2="1193.28" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3351" y1="1215.07" x2="3376.86" y2="1204.18" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3325.09" y1="1225.99" x2="3351" y2="1215.07" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3299.29" y1="1236.87" x2="3325.09" y2="1225.99" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3272.84" y1="1248.01" x2="3299.29" y2="1236.87" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3221.72" y1="1269.55" x2="3272.84" y2="1248.01" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3195.63" y1="1280.55" x2="3221.72" y2="1269.55" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3476" y1="1185.95" x2="3501.85" y2="1175.05" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3450.14" y1="1196.84" x2="3476" y2="1185.95" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3424.28" y1="1207.74" x2="3450.14" y2="1196.84" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3398.43" y1="1218.64" x2="3424.28" y2="1207.74" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3372.57" y1="1229.53" x2="3398.43" y2="1218.64" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3346.71" y1="1240.43" x2="3372.57" y2="1229.53" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3217.43" y1="1294.91" x2="3346.71" y2="1240.43" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3230.81" y1="1303.89" x2="3515.24" y2="1184.03" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3245.13" y1="1313.49" x2="3529.56" y2="1193.63" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3258.52" y1="1322.46" x2="3542.94" y2="1202.6" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3272.84" y1="1332.07" x2="3557.26" y2="1212.2" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3287.26" y1="1341.94" x2="3571.87" y2="1222" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3300.54" y1="1350.64" x2="3584.97" y2="1230.78" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3313.93" y1="1359.62" x2="3598.36" y2="1239.76" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3330.29" y1="1370.59" x2="3614.72" y2="1250.73" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3343.68" y1="1379.57" x2="3628.1" y2="1259.71" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3358.04" y1="1389.15" x2="3642.42" y2="1269.31" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3371.39" y1="1398.14" x2="3655.81" y2="1278.28" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3385.7" y1="1407.75" x2="3670.13" y2="1287.89" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3400.31" y1="1417.54" x2="3684.74" y2="1297.68" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3413.41" y1="1426.32" x2="3697.83" y2="1306.46" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3685.36" y1="1326.34" x2="3711.84" y2="1315.18" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3504.37" y1="1402.61" x2="3685.36" y2="1326.34" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3478.51" y1="1413.51" x2="3504.37" y2="1402.61" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3426.34" y1="1435.49" x2="3478.51" y2="1413.51" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3445.2" y1="1447.64" x2="3729.63" y2="1327.78" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3458.59" y1="1456.62" x2="3743.01" y2="1336.76" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3472.91" y1="1466.22" x2="3757.33" y2="1346.36" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3486.3" y1="1475.2" x2="3770.72" y2="1355.34" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3500.61" y1="1484.8" x2="3785.04" y2="1364.94" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3514.75" y1="1494.79" x2="3799.65" y2="1374.73" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3528.32" y1="1503.38" x2="3813.45" y2="1383.22" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3774.42" y1="1414.28" x2="3826.13" y2="1392.49" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3722.7" y1="1436.08" x2="3774.42" y2="1414.28" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3541.38" y1="1512.49" x2="3722.7" y2="1436.08" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3567.65" y1="1529.75" x2="3852.07" y2="1409.89" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3582.8" y1="1539.91" x2="3867.23" y2="1420.05" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3597.65" y1="1549.87" x2="3882.08" y2="1430.01" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3611.8" y1="1559.35" x2="3895.92" y2="1439.29" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3626.2" y1="1568.28" x2="3910.09" y2="1448.65" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3640.38" y1="1577.37" x2="3923.75" y2="1457.95" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+    <line x1="3652.06" y1="1586.43" x2="3936.36" y2="1466.62" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
+  </g>
+  <g id="Layer_4" data-name="Layer 4">
+    <rect x="2367.99" y="3547.5" width="1773.03" height="250.49" style="fill: #231f20; stroke: #fff; stroke-miterlimit: 10; stroke-width: 4px;"/>
+    <text transform="translate(2436.08 3701.18)" style="fill: #fff; font-family: LucidaConsole, &apos;Lucida Console&apos;; font-size: 100px;"><tspan x="0" y="0">Olympisch Stadion Amsterdam</tspan></text>
+    <rect x="4166.04" y="711.71" width="1056.06" height="250.49" style="fill: #fff; stroke: #231f20; stroke-miterlimit: 10; stroke-width: 4px;"/>
+    <text transform="translate(4234.13 865.39)" style="fill: #231f20; font-family: LucidaConsole, &apos;Lucida Console&apos;; font-size: 100px;"><tspan x="0" y="0">Batterij opslag</tspan></text>
+    <rect x="3694.89" y="2473.89" width="304.08" height="250.49" style="fill: #fff; stroke: #231f20; stroke-miterlimit: 10; stroke-width: 4px;"/>
+    <text transform="translate(3751.32 2627.57)" style="fill: #231f20; font-family: LucidaConsole, &apos;Lucida Console&apos;; font-size: 100px;"><tspan x="0" y="0">EMS</tspan></text>
+    <rect x="4588.7" y="3547.5" width="905.96" height="250.49" style="fill: #231f20; stroke: #fff; stroke-miterlimit: 10; stroke-width: 4px;"/>
+    <text transform="translate(4656.79 3701.18)" style="fill: #fff; font-family: LucidaConsole, &apos;Lucida Console&apos;; font-size: 100px;"><tspan x="0" y="0">Cruyff Court</tspan></text>
+    <rect x="160.09" y="3547.5" width="905.96" height="250.49" style="fill: #231f20; stroke: #fff; stroke-miterlimit: 10; stroke-width: 4px;"/>
+    <text transform="translate(282.19 3701.18)" style="fill: #fff; font-family: LucidaConsole, &apos;Lucida Console&apos;; font-size: 100px;"><tspan x="0" y="0">Hoofdingang</tspan></text>
+    <rect x="1206.3" y="3547.5" width="905.96" height="250.49" style="fill: #231f20; stroke: #fff; stroke-miterlimit: 10; stroke-width: 4px;"/>
+    <text transform="translate(1274.39 3701.18)" style="fill: #fff; font-family: LucidaConsole, &apos;Lucida Console&apos;; font-size: 100px;"><tspan x="0" y="0">Parkeergarage</tspan></text>
+    <rect x="6100.59" y="2082.29" width="616.24" height="250.49" style="fill: #fff; stroke: #231f20; stroke-miterlimit: 10; stroke-width: 4px;"/>
+    <text transform="translate(6180.5 2235.97)" style="fill: #231f20; font-family: LucidaConsole, &apos;Lucida Console&apos;; font-size: 100px;"><tspan x="0" y="0">IJsbaan</tspan></text>
+    <polygon points="4314.04 2312.85 4247.75 2356.03 4247.75 2424.35 4296.19 2424.35 4362.47 2381.17 4362.47 2312.85 4314.04 2312.85" style="fill: #231f20; stroke-width: 0px;"/>
+    <polygon points="4214.96 2312.85 4148.68 2356.03 4148.68 2424.35 4197.11 2424.35 4263.39 2381.17 4263.39 2312.85 4214.96 2312.85" style="fill: #231f20; stroke-width: 0px;"/>
+    <rect x="2083.11" y="117.75" width="885.76" height="250.49" style="fill: #fff; stroke: #231f20; stroke-miterlimit: 10; stroke-width: 4px;"/>
+    <text transform="translate(2163.02 271.43)" style="fill: #231f20; font-family: LucidaConsole, &apos;Lucida Console&apos;; font-size: 100px;"><tspan x="0" y="0">zonnepanelen</tspan></text>
+    <line x1="2754.99" y1="368.24" x2="3106.26" y2="1066.35" style="fill: #fff; stroke: #231f20; stroke-miterlimit: 10; stroke-width: 4px;"/>
+    <polygon points="4665.61 2306.02 4823.58 2431.22 5182.05 2216.14 5016.61 2109.09 4665.61 2306.02" style="fill: #fcee29; stroke-width: 0px;"/>
+    <line x1="4514.4" y1="963.76" x2="4331.56" y2="2332.78" style="fill: #fff; stroke: #231f20; stroke-miterlimit: 10; stroke-width: 4px;"/>
+    <line x1="6100.59" y1="2207.53" x2="5066.76" y2="2245.82" style="fill: #fff; stroke: #231f20; stroke-miterlimit: 10; stroke-width: 4px;"/>
+    <line x1="4954.27" y1="2352.13" x2="4954.27" y2="3547.5" style="fill: #fff; stroke: #231f20; stroke-miterlimit: 10; stroke-width: 4px;"/>
+    <line x1="1274.39" y1="3396.75" x2="1274.39" y2="3610.83" style="fill: #fff; stroke: #231f20; stroke-miterlimit: 10; stroke-width: 4px;"/>
+    <line x1="4876.96" y1="1346.36" x2="4665.81" y2="2411.78" style="fill: #fff; stroke: #231f20; stroke-miterlimit: 10; stroke-width: 4px;"/>
+    <line x1="896.97" y1="2175.86" x2="896.97" y2="3581.72" style="fill: #fff; stroke: #231f20; stroke-miterlimit: 10; stroke-width: 4px;"/>
+    <line x1="2785.9" y1="3105.2" x2="2785.9" y2="3577.94" style="fill: #fff; stroke: #231f20; stroke-miterlimit: 10; stroke-width: 4px;"/>
+    <line x1="2311.18" y1="368.24" x2="1210.05" y2="2082.29" style="fill: #fff; stroke: #231f20; stroke-miterlimit: 10; stroke-width: 4px;"/>
+    <polygon points="4711.09 2368.6 4685.42 2385.32 4685.42 2411.78 4704.18 2411.78 4729.85 2395.06 4729.85 2368.6 4711.09 2368.6" style="fill: #231f20; stroke-width: 0px;"/>
+    <polygon points="4672.72 2368.6 4647.05 2385.32 4647.05 2411.78 4665.81 2411.78 4691.48 2395.06 4691.48 2368.6 4672.72 2368.6" style="fill: #231f20; stroke-width: 0px;"/>
+    <rect x="4591.81" y="1100.46" width="896.25" height="250.49" style="fill: #fff; stroke: #231f20; stroke-miterlimit: 10; stroke-width: 4px;"/>
+    <text transform="translate(4704.42 1258.52)" style="fill: #231f20; font-family: LucidaConsole, &apos;Lucida Console&apos;; font-size: 100px;"><tspan x="0" y="0">Koelsysteem</tspan></text>
+  </g>
+  <g id="Layer_7" data-name="Layer 7">
+    <path d="m4026.98,2420.68c13.35-22.66,34.87-50.31,65.98-55.52,38.14-6.39,53.12,27.24,99.35,35.48,22.08,3.94,42.62,46.2,170.16-19.47,98.7-50.82,177.84-5.18,230.66,19.47,43.76,20.42,101.31-9.85,143.11-38.64" style="fill: none; stroke: #231f20; stroke-miterlimit: 10; stroke-width: 4px;"/>
+  </g>
 </svg>

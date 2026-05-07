@@ -120,8 +120,12 @@ video{
 }
 
 .flex-wrap{
-  width: 45%;
+  width: 50%;
   padding: 14px;
+}
+
+.flex-wrap:nth-child(2){
+  width: 40%;
 }
 
 .flex-wrap img{
@@ -456,6 +460,10 @@ li{
   }
   .map{
     padding-top: 100px;
+  }
+
+  .flex-wrap:nth-child(2){
+    width: 100%;
   }
 
   .text{
