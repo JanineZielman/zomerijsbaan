@@ -232,7 +232,6 @@ document.querySelectorAll(".programma-item .button").forEach((btn) => {
 
     let html = "";
     if (img) html += `<img src="${img.src}" alt="" />`;
-    if (caption && caption.textContent.trim()) html += `<span class="caption">${caption.innerHTML}</span>`;
     if (h3) html += `<h3>${h3.innerHTML}</h3>`;
     ps.forEach((p) => { html += p.outerHTML; });
     if (meerInfo) html += `<div class="meer-info">${meerInfo.innerHTML}</div>`;
