@@ -490,6 +490,7 @@ li{
 
   footer{
     flex-direction: column;
+    margin-top: 0;
   }
 
   .items{
