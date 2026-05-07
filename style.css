@@ -125,12 +125,20 @@ video{
 }
 
 .flex-wrap{
-  width: 50%;
+  width: 55%;
   padding: 14px;
 }
 
 .flex-wrap:nth-child(2){
   width: 40%;
+}
+
+.sun2 .flex-wrap{
+  width: 40%;
+}
+
+.sun2 .flex-wrap:nth-child(2){
+  width: 55%;
 }
 
 .flex-wrap img{
@@ -181,7 +189,7 @@ p{
 }
 
 .openingstijden{
-  padding: 100px 14px 0 14px;
+  padding: 100px 14px;
   text-align: center;
 }
 
@@ -192,7 +200,7 @@ p{
 }
 
 .openingstijden p{
-  max-width: 600px;
+  max-width: 900px;
   margin: auto;
 }
 
@@ -217,6 +225,18 @@ p{
   align-items: center;
 }
 
+.over p{
+  max-width: 900px;
+  margin: auto;
+}
+
+.over h2{
+  text-align: center;
+}
+
+.over{
+  margin-bottom: 100px;
+}
 
 .items{
   display: flex;
@@ -314,6 +334,7 @@ footer{
   display: flex;
   justify-content: center;
   align-items: flex-start;
+  margin-top: 100px;
 }
 
 footer p{
@@ -448,6 +469,24 @@ li{
     width: 100%;
     padding: 0;
   }
+
+  .sun2{
+    padding-top: 100px;
+  }
+
+  .sun2 .flex-wrap{
+  width: 100%;
+}
+
+.sun2 .flex-wrap img{
+  padding-top: 0;
+}
+
+
+  .sun2 .flex-wrap:nth-child(2){
+  width: 100%;
+}
+
 
   footer{
     flex-direction: column;

@@ -3,6 +3,32 @@ const textBottom = document.querySelector(".bottom");
 const displayTime = document.getElementById("displaytime");
 const center = document.getElementById("center"); // ✅ NEW
 
+const heroVideo = document.querySelector("video");
+
+function tryPlayVideo() {
+  if (!heroVideo) return;
+
+  // Ensure autoplay policy requirements are met before playing.
+  heroVideo.muted = true;
+  heroVideo.playsInline = true;
+
+  const playAttempt = heroVideo.play();
+  if (playAttempt && typeof playAttempt.catch === "function") {
+    playAttempt.catch(() => {
+      // Autoplay can still be blocked (e.g. Low Power Mode on iOS).
+    });
+  }
+}
+
+document.addEventListener("DOMContentLoaded", tryPlayVideo);
+document.addEventListener("visibilitychange", () => {
+  if (document.visibilityState === "visible") tryPlayVideo();
+});
+
+["touchstart", "click"].forEach((eventName) => {
+  document.addEventListener(eventName, tryPlayVideo, { once: true });
+});
+
 let mouseTargetX = 0;
 let mouseX = 0;
 
