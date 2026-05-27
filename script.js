@@ -11,26 +11,23 @@ const heroVideo = document.querySelector("video");
 const SOURCE_DATA_URL = "http://jelle.bike:4000/";
 const PROXY_URLS = [
   `https://api.allorigins.win/raw?url=${encodeURIComponent(SOURCE_DATA_URL)}`,
-  `https://corsproxy.io/?${encodeURIComponent(SOURCE_DATA_URL)}`,
-  `https://thingproxy.freeboard.io/fetch/${SOURCE_DATA_URL}`
+  `https://api.codetabs.com/v1/proxy?quest=${encodeURIComponent(SOURCE_DATA_URL)}`
 ];
 const FETCH_TIMEOUT_MS = 7000;
+const DATA_STALE_MS = 120000;
 
 function getDataUrlCandidates() {
-  const isHttpsPage = window.location.protocol === "https:";
-
-  if (isHttpsPage) {
-    // Never include plain HTTP when the page itself is HTTPS.
-    return PROXY_URLS;
-  }
-
-  return [SOURCE_DATA_URL, ...PROXY_URLS];
+  // Always use proxy URLs from the browser to avoid direct HTTP mixed-content/CORS failures.
+  return PROXY_URLS;
 }
 
 const DATA_URL_CANDIDATES = getDataUrlCandidates();
 const DATA_POLL_MS = 10000;
+const MAX_BACKOFF_MS = 60000;
 
 let lastPowerFetchAt = 0;
+let powerFetchFailures = 0;
+let powerPollTimer = null;
 
 function tryPlayVideo() {
   if (!heroVideo) return;
@@ -218,6 +215,16 @@ function formatPercentage(value) {
   return `${value.toFixed(1).replace(".", ",")}%`;
 }
 
+function getNewestEpoch(metrics) {
+  if (!metrics) return 0;
+
+  return Math.max(
+    metrics.latestIn ? metrics.latestIn.epoch : 0,
+    metrics.latestOut ? metrics.latestOut.epoch : 0,
+    metrics.latestStateOfCharge ? metrics.latestStateOfCharge.epoch : 0
+  );
+}
+
 function parsePowerPayload(rawText) {
   if (!rawText || typeof rawText !== "string") return [];
 
@@ -302,7 +309,7 @@ function readLatestMetrics(rows) {
   return { latestIn, latestOut, latestStateOfCharge };
 }
 
-function renderPowerData(latestMetrics) {
+function renderPowerData(latestMetrics, isStale = false) {
   if (!latestMetrics) return;
 
   const { latestIn, latestOut, latestStateOfCharge } = latestMetrics;
@@ -316,7 +323,8 @@ function renderPowerData(latestMetrics) {
   }
 
   if (latestStateOfCharge) {
-    stateOfChargeDisplay.textContent = formatPercentage(latestStateOfCharge.value);
+    const staleSuffix = isStale ? " (oud)" : "";
+    stateOfChargeDisplay.textContent = `${formatPercentage(latestStateOfCharge.value)}${staleSuffix}`;
   }
 }
 
@@ -339,28 +347,59 @@ async function fetchTextWithTimeout(url, timeoutMs) {
 
 async function fetchAndRenderPowerData() {
   const now = Date.now();
-  if (now - lastPowerFetchAt < 1500) return;
+  if (now - lastPowerFetchAt < 1500) return false;
   lastPowerFetchAt = now;
 
-  for (const url of DATA_URL_CANDIDATES) {
+  const attempts = DATA_URL_CANDIDATES.map(async (url) => {
     try {
       const cacheBuster = `sep=${Date.now()}`;
       const urlWithCacheBuster = url.includes("?") ? `${url}&${cacheBuster}` : `${url}?${cacheBuster}`;
       const rawText = await fetchTextWithTimeout(urlWithCacheBuster, FETCH_TIMEOUT_MS);
-      if (!rawText) continue;
+      if (!rawText) return null;
 
       const rows = parsePowerPayload(rawText);
       const latestMetrics = readLatestMetrics(rows);
-      if (!latestMetrics) continue;
+      if (!latestMetrics) return null;
 
-      renderPowerData(latestMetrics);
-      return;
+      const newestEpoch = getNewestEpoch(latestMetrics);
+      return {
+        latestMetrics,
+        newestEpoch
+      };
     } catch {
-      // Try next URL candidate.
+      return null;
     }
+  });
+
+  const settled = await Promise.all(attempts);
+  const successful = settled.filter((item) => item && item.newestEpoch > 0);
+  if (successful.length > 0) {
+    successful.sort((a, b) => b.newestEpoch - a.newestEpoch);
+    const best = successful[0];
+    const isStale = Date.now() - best.newestEpoch * 1000 > DATA_STALE_MS;
+    renderPowerData(best.latestMetrics, isStale);
+    return true;
   }
 
   // Keep existing values when all endpoints are temporarily unreachable.
+  return false;
+}
+
+function schedulePowerPolling(delayMs = DATA_POLL_MS) {
+  if (powerPollTimer) {
+    clearTimeout(powerPollTimer);
+  }
+
+  powerPollTimer = setTimeout(async () => {
+    const ok = await fetchAndRenderPowerData();
+    powerFetchFailures = ok ? 0 : powerFetchFailures + 1;
+
+    const nextDelay = ok
+      ? DATA_POLL_MS
+      : Math.min(MAX_BACKOFF_MS, DATA_POLL_MS * Math.pow(2, powerFetchFailures));
+
+    schedulePowerPolling(nextDelay);
+  }, delayMs);
 }
 
 /* =========================
@@ -422,10 +461,13 @@ function startLive() {
   }
 
   update();
-  fetchAndRenderPowerData();
+  fetchAndRenderPowerData().then((ok) => {
+    powerFetchFailures = ok ? 0 : 1;
+    const nextDelay = ok ? DATA_POLL_MS : Math.min(MAX_BACKOFF_MS, DATA_POLL_MS * 2);
+    schedulePowerPolling(nextDelay);
+  });
 
   setInterval(update, 1000);
-  setInterval(fetchAndRenderPowerData, DATA_POLL_MS);
   window.addEventListener("scroll", update);
 }
 
