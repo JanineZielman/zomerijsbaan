@@ -4,6 +4,9 @@ const displayTime = document.getElementById("displaytime");
 const powerInDisplay = document.getElementById("powerin");
 const powerOutDisplay = document.getElementById("powerout");
 const stateOfChargeDisplay = document.getElementById("stateofcharge");
+const powerInRow = powerInDisplay ? powerInDisplay.closest("h2") : null;
+const powerOutRow = powerOutDisplay ? powerOutDisplay.closest("h2") : null;
+const stateOfChargeRow = stateOfChargeDisplay ? stateOfChargeDisplay.closest("h2") : null;
 const center = document.getElementById("center"); // ✅ NEW
 
 const heroVideo = document.querySelector("video");
@@ -28,6 +31,17 @@ const MAX_BACKOFF_MS = 60000;
 let lastPowerFetchAt = 0;
 let powerFetchFailures = 0;
 let powerPollTimer = null;
+let hasLoadedPowerData = false;
+
+function setPowerRowsVisible(visible) {
+  const displayValue = visible ? "" : "none";
+
+  if (powerInRow) powerInRow.style.display = displayValue;
+  if (powerOutRow) powerOutRow.style.display = displayValue;
+  if (stateOfChargeRow) stateOfChargeRow.style.display = displayValue;
+}
+
+setPowerRowsVisible(false);
 
 function tryPlayVideo() {
   if (!heroVideo) return;
@@ -311,6 +325,11 @@ function readLatestMetrics(rows) {
 
 function renderPowerData(latestMetrics, isStale = false) {
   if (!latestMetrics) return;
+
+  if (!hasLoadedPowerData) {
+    hasLoadedPowerData = true;
+    setPowerRowsVisible(true);
+  }
 
   const { latestIn, latestOut, latestStateOfCharge } = latestMetrics;
 
