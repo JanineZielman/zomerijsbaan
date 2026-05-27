@@ -1,9 +1,18 @@
 const textTop = document.getElementById("TOTD");
 const textBottom = document.querySelector(".bottom");
 const displayTime = document.getElementById("displaytime");
+const powerInDisplay = document.getElementById("powerin");
+const powerOutDisplay = document.getElementById("powerout");
+const powerTimeDisplay = document.getElementById("powertime");
 const center = document.getElementById("center"); // ✅ NEW
 
 const heroVideo = document.querySelector("video");
+const DATA_URL = "http://jelle.bike:4000/";
+const CORS_PROXY_URL = `https://api.allorigins.win/raw?url=${encodeURIComponent(DATA_URL)}`;
+const DATA_URL_CANDIDATES = [DATA_URL, CORS_PROXY_URL];
+const DATA_POLL_MS = 10000;
+
+let lastPowerFetchAt = 0;
 
 function tryPlayVideo() {
   if (!heroVideo) return;
@@ -171,6 +180,145 @@ function formatTime(date) {
   return (h < 10 ? " " + h : h) + ":" + (m < 10 ? "0" + m : m);
 }
 
+function formatClock(date) {
+  const hh = String(date.getHours()).padStart(2, "0");
+  const mm = String(date.getMinutes()).padStart(2, "0");
+  const ss = String(date.getSeconds()).padStart(2, "0");
+
+  return `${hh}:${mm}:${ss}`;
+}
+
+function formatWatts(value) {
+  if (!Number.isFinite(value)) return "--";
+
+  return `${Math.round(value).toLocaleString("nl-NL")} W`;
+}
+
+function parsePowerPayload(rawText) {
+  if (!rawText || typeof rawText !== "string") return [];
+
+  const trimmed = rawText.trim();
+  if (!trimmed) return [];
+
+  // 1) Try regular JSON first (array of arrays or wrapped object).
+  try {
+    const parsed = JSON.parse(trimmed);
+
+    if (Array.isArray(parsed)) {
+      if (Array.isArray(parsed[0])) return parsed;
+      if (parsed.length >= 3 && typeof parsed[1] === "string") return [parsed];
+    }
+
+    if (parsed && Array.isArray(parsed.data)) {
+      return parsed.data;
+    }
+  } catch {
+    // 2) Fall through to tolerant tuple extraction.
+  }
+
+  // 2) Tolerant parse for payloads like:
+  // [ts,"PowerIn",123], [ts,"PowerOut",456], ... (optionally with trailing comma)
+  const matches = trimmed.match(/\[[^\[\]]*\]/g);
+  if (!matches) return [];
+
+  const rows = [];
+
+  for (const part of matches) {
+    try {
+      const row = JSON.parse(part);
+      if (Array.isArray(row) && row.length >= 3) {
+        rows.push(row);
+      }
+    } catch {
+      // Ignore malformed rows and continue.
+    }
+  }
+
+  return rows;
+}
+
+function readLatestPowerPair(rows) {
+  if (!Array.isArray(rows)) return null;
+
+  let latestIn = null;
+  let latestOut = null;
+
+  for (const row of rows) {
+    if (!Array.isArray(row) || row.length < 3) continue;
+
+    const [epochRaw, typeRaw, valueRaw] = row;
+    const epoch = Number(epochRaw);
+    const value = Number(valueRaw);
+    const type = String(typeRaw);
+
+    if (!Number.isFinite(epoch) || !Number.isFinite(value)) continue;
+
+    if (type === "PowerIn") {
+      if (!latestIn || epoch >= latestIn.epoch) {
+        latestIn = { epoch, value };
+      }
+    }
+
+    if (type === "PowerOut") {
+      if (!latestOut || epoch >= latestOut.epoch) {
+        latestOut = { epoch, value };
+      }
+    }
+  }
+
+  if (!latestIn && !latestOut) return null;
+
+  return { latestIn, latestOut };
+}
+
+function renderPowerData(latestPair) {
+  if (!latestPair) return;
+
+  const { latestIn, latestOut } = latestPair;
+
+  if (latestIn) {
+    powerInDisplay.textContent = formatWatts(latestIn.value);
+  }
+
+  if (latestOut) {
+    powerOutDisplay.textContent = formatWatts(latestOut.value);
+  }
+
+  const newestEpoch = Math.max(
+    latestIn ? latestIn.epoch : 0,
+    latestOut ? latestOut.epoch : 0
+  );
+
+  if (newestEpoch > 0) {
+    powerTimeDisplay.textContent = formatClock(new Date(newestEpoch * 1000));
+  }
+}
+
+async function fetchAndRenderPowerData() {
+  const now = Date.now();
+  if (now - lastPowerFetchAt < 1500) return;
+  lastPowerFetchAt = now;
+
+  for (const url of DATA_URL_CANDIDATES) {
+    try {
+      const response = await fetch(url, { cache: "no-store" });
+      if (!response.ok) continue;
+
+      const rawText = await response.text();
+      const rows = parsePowerPayload(rawText);
+      const latestPair = readLatestPowerPair(rows);
+      if (!latestPair) continue;
+
+      renderPowerData(latestPair);
+      return;
+    } catch {
+      // Try next URL candidate.
+    }
+  }
+
+  // Keep existing values when all endpoints are temporarily unreachable.
+}
+
 /* =========================
    🎬 LOADER
 ========================= */
@@ -230,8 +378,10 @@ function startLive() {
   }
 
   update();
+  fetchAndRenderPowerData();
 
   setInterval(update, 1000);
+  setInterval(fetchAndRenderPowerData, DATA_POLL_MS);
   window.addEventListener("scroll", update);
 }
 

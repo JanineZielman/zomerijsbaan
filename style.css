@@ -89,9 +89,14 @@ p a{
 
 #info {
   position: fixed;
-  right: 14px;
-  bottom: 14px;
+  /* right: 14px; */
+  left: 0;
+  bottom: 0;
   font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 14px;
 }
 
 #info h2{
