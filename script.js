@@ -3,7 +3,7 @@ const textBottom = document.querySelector(".bottom");
 const displayTime = document.getElementById("displaytime");
 const powerInDisplay = document.getElementById("powerin");
 const powerOutDisplay = document.getElementById("powerout");
-const powerTimeDisplay = document.getElementById("powertime");
+const stateOfChargeDisplay = document.getElementById("stateofcharge");
 const center = document.getElementById("center"); // ✅ NEW
 
 const heroVideo = document.querySelector("video");
@@ -11,8 +11,10 @@ const heroVideo = document.querySelector("video");
 const SOURCE_DATA_URL = "http://jelle.bike:4000/";
 const PROXY_URLS = [
   `https://api.allorigins.win/raw?url=${encodeURIComponent(SOURCE_DATA_URL)}`,
-  `https://corsproxy.io/?${encodeURIComponent(SOURCE_DATA_URL)}`
+  `https://corsproxy.io/?${encodeURIComponent(SOURCE_DATA_URL)}`,
+  `https://thingproxy.freeboard.io/fetch/${SOURCE_DATA_URL}`
 ];
+const FETCH_TIMEOUT_MS = 7000;
 
 function getDataUrlCandidates() {
   const isHttpsPage = window.location.protocol === "https:";
@@ -210,6 +212,12 @@ function formatWatts(value) {
   return `${Math.round(value).toLocaleString("nl-NL")} W`;
 }
 
+function formatPercentage(value) {
+  if (!Number.isFinite(value)) return "--%";
+
+  return `${value.toFixed(1).replace(".", ",")}%`;
+}
+
 function parsePowerPayload(rawText) {
   if (!rawText || typeof rawText !== "string") return [];
 
@@ -253,11 +261,12 @@ function parsePowerPayload(rawText) {
   return rows;
 }
 
-function readLatestPowerPair(rows) {
+function readLatestMetrics(rows) {
   if (!Array.isArray(rows)) return null;
 
   let latestIn = null;
   let latestOut = null;
+  let latestStateOfCharge = null;
 
   for (const row of rows) {
     if (!Array.isArray(row) || row.length < 3) continue;
@@ -280,17 +289,23 @@ function readLatestPowerPair(rows) {
         latestOut = { epoch, value };
       }
     }
+
+    if (type === "StateOfCharge") {
+      if (!latestStateOfCharge || epoch >= latestStateOfCharge.epoch) {
+        latestStateOfCharge = { epoch, value };
+      }
+    }
   }
 
-  if (!latestIn && !latestOut) return null;
+  if (!latestIn && !latestOut && !latestStateOfCharge) return null;
 
-  return { latestIn, latestOut };
+  return { latestIn, latestOut, latestStateOfCharge };
 }
 
-function renderPowerData(latestPair) {
-  if (!latestPair) return;
+function renderPowerData(latestMetrics) {
+  if (!latestMetrics) return;
 
-  const { latestIn, latestOut } = latestPair;
+  const { latestIn, latestOut, latestStateOfCharge } = latestMetrics;
 
   if (latestIn) {
     powerInDisplay.textContent = formatWatts(latestIn.value);
@@ -300,13 +315,25 @@ function renderPowerData(latestPair) {
     powerOutDisplay.textContent = formatWatts(latestOut.value);
   }
 
-  const newestEpoch = Math.max(
-    latestIn ? latestIn.epoch : 0,
-    latestOut ? latestOut.epoch : 0
-  );
+  if (latestStateOfCharge) {
+    stateOfChargeDisplay.textContent = formatPercentage(latestStateOfCharge.value);
+  }
+}
 
-  if (newestEpoch > 0) {
-    powerTimeDisplay.textContent = formatClock(new Date(newestEpoch * 1000));
+async function fetchTextWithTimeout(url, timeoutMs) {
+  const controller = new AbortController();
+  const timeoutId = setTimeout(() => controller.abort(), timeoutMs);
+
+  try {
+    const response = await fetch(url, {
+      cache: "no-store",
+      signal: controller.signal
+    });
+    if (!response.ok) return null;
+
+    return await response.text();
+  } finally {
+    clearTimeout(timeoutId);
   }
 }
 
@@ -317,15 +344,16 @@ async function fetchAndRenderPowerData() {
 
   for (const url of DATA_URL_CANDIDATES) {
     try {
-      const response = await fetch(url, { cache: "no-store" });
-      if (!response.ok) continue;
+      const cacheBuster = `sep=${Date.now()}`;
+      const urlWithCacheBuster = url.includes("?") ? `${url}&${cacheBuster}` : `${url}?${cacheBuster}`;
+      const rawText = await fetchTextWithTimeout(urlWithCacheBuster, FETCH_TIMEOUT_MS);
+      if (!rawText) continue;
 
-      const rawText = await response.text();
       const rows = parsePowerPayload(rawText);
-      const latestPair = readLatestPowerPair(rows);
-      if (!latestPair) continue;
+      const latestMetrics = readLatestMetrics(rows);
+      if (!latestMetrics) continue;
 
-      renderPowerData(latestPair);
+      renderPowerData(latestMetrics);
       return;
     } catch {
       // Try next URL candidate.
