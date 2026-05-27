@@ -7,9 +7,25 @@ const powerTimeDisplay = document.getElementById("powertime");
 const center = document.getElementById("center"); // ✅ NEW
 
 const heroVideo = document.querySelector("video");
-const DATA_URL = "http://jelle.bike:4000/";
-const CORS_PROXY_URL = `https://api.allorigins.win/raw?url=${encodeURIComponent(DATA_URL)}`;
-const DATA_URL_CANDIDATES = [DATA_URL, CORS_PROXY_URL];
+// Upstream must stay HTTP. On HTTPS pages we can only reach it via HTTPS proxies.
+const SOURCE_DATA_URL = "http://jelle.bike:4000/";
+const PROXY_URLS = [
+  `https://api.allorigins.win/raw?url=${encodeURIComponent(SOURCE_DATA_URL)}`,
+  `https://corsproxy.io/?${encodeURIComponent(SOURCE_DATA_URL)}`
+];
+
+function getDataUrlCandidates() {
+  const isHttpsPage = window.location.protocol === "https:";
+
+  if (isHttpsPage) {
+    // Never include plain HTTP when the page itself is HTTPS.
+    return PROXY_URLS;
+  }
+
+  return [SOURCE_DATA_URL, ...PROXY_URLS];
+}
+
+const DATA_URL_CANDIDATES = getDataUrlCandidates();
 const DATA_POLL_MS = 10000;
 
 let lastPowerFetchAt = 0;
